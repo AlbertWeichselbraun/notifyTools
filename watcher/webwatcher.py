@@ -24,10 +24,28 @@ from commands import getoutput
 from cPickle import load, dump
 import os.path, os
 
+import sys
+from os.path import expanduser
+sys.path.append( expanduser("~/.notifyTools") )
+from siteconfig import WEBWATCHER_SITES
+
 LYNX="/usr/bin/lynx -force_html -nocolor -dump -nolist -nobold -pseudo_inlines=0 -display_charset=utf8 %s"
 STORAGE_PATH=".notify-webwatcher/%s"
 
 class Webwatcher:
+
+    def getNotifications( self, notifierList ):
+        """ checks all sites and generates a notifcation based on the 
+            changes observed """
+
+        assert isinstance(notifierList, tuple) or isinstance(notifierList, list)
+        changes = {}
+        for url, minChangePercentage in WEBWATCHER_SITES.items():
+            change = self.getChange( url )
+            if change  > minChangePercentage:
+                for notifier in notifierList:
+                    notifier.addNotification("%s changed" % url, "Webwatcher detected a %d change at <a href=\"%s\">%s</a>" % (100*change, url, url) )
+
 
     def getChange( self, url ):
         """ returns the percentage to which this url has changed

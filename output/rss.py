@@ -26,24 +26,25 @@ import PyRSS2Gen
 class RSS(object):
     """ an RSS output object """
 
-    __slots__ = ('feed_title', 'feed_description', 'notifications' )
+    __slots__ = ('feed_title', 'feed_description', 'notifications', 'url', 'fname' )
 
-    def __init__(self, title, url, description):
+    def __init__(self, title, url, description, fname):
         """ @param[in] feed title
             @param[in] feed description
         """
         self.notifications    = []
         self.feed_title       = title
         self.feed_description = description
+        self.url              = url
+        self.fname            = fname
 
-    
     def addNotification(title, link, description, date=datetime.now()):
         """ @param[in] title The entry's title
             @param[in] link  A link to the entry
             @param[in] description
             @param[in] date
         """
-        self.items.append(
+        self.notifications.append(
               PyRSS2Gen.RSSItem(
                 title = title,
                 link = link,
@@ -52,18 +53,18 @@ class RSS(object):
               )
            )
 
-    def notify(self, fname, url):
+    def notify(self):
         """ publishs the rss feed at the given url
             @param[in] fname
             @param[in] url
         """
         rss = PyRSS2Gen.RSS2(
             title         = self.feed_title,
-            link          = url,
+            link          = self.url,
             description   = self.feed_description,
             lastBuildDate = datetime.now(),
             items         = self.notifications,)
 
-        rss.write_xml(open(fname, "w"))
+        rss.write_xml(open(self.fname, "w"))
         self.notifications = []
 
