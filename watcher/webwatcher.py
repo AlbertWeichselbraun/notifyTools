@@ -22,6 +22,7 @@ __version__ = "$Header$"
 from hashlib import sha1
 from commands import getoutput
 from cPickle import load, dump
+from difflib import Differ
 import os.path, os
 
 import sys
@@ -34,6 +35,10 @@ STORAGE_PATH=".notify-webwatcher/%s"
 
 class Webwatcher:
 
+    def __init__(self):
+        self.changes = {}  # a dictionary containing the url, changed text and change percentage
+
+
     def getNotifications( self, notifierList ):
         """ checks all sites and generates a notifcation based on the 
             changes observed """
@@ -43,8 +48,25 @@ class Webwatcher:
         for url, minChangePercentage in WEBWATCHER_SITES.items():
             change = self.getChange( url )
             if change  > minChangePercentage:
+                changeText = self.getChangeText( url )
                 for notifier in notifierList:
-                    notifier.addNotification("%s changed" % url, "Webwatcher detected a %d change at <a href=\"%s\">%s</a>" % (100*change, url, url) )
+                    notifier.addNotification("%s changed by %d %%" % (url, 100*change), "<br/><a href=\"%s\">more...</a>" % (changeText, url) )
+
+
+    def _computeChange(self, url):
+        """ computes the changes for the given url """
+        if url in self.changes:
+            return
+
+        d = Differ()
+        old = self._loadWebsite( url )
+        new = self._getPageWebsite( url )
+        self._saveWebsite( url, new )
+
+        newLines = [ t[2:] for t in d.compare(old, new) if t.startswith("+ ")  ]
+        oldLines = [ t[2:] for t in d.compare(old, new) if t.startswith("  ")  ]
+
+        self.changes[url] = ("\n".join(newLines), float(len(newLines) ) / ( len(newLines) + len(oldLines) ) )
 
 
     def getChange( self, url ):
@@ -52,11 +74,18 @@ class Webwatcher:
             @param[in] url
             @returns change (in %)
         """
-        old = self._loadHashSet( url )
-        new = self._getPageHashSet( url )
-        self._saveHashSet( url, new )
+        self._computeChange( url ) 
+        return self.changes[url][1]
 
-        return float( len(new.difference( old )) )/len(new)
+    
+    def getChangeText( self, url ):
+        """ returns the new text added to the web site 
+            @param[in] url
+            @returns the changed text 
+        """
+        self._computeChange( url )
+        return self.changes[url][0]
+        
 
     @staticmethod
     def getStorageFname( url ):
@@ -67,19 +96,19 @@ class Webwatcher:
         return STORAGE_PATH % ( sha1(url).hexdigest() )
 
     @staticmethod
-    def _saveHashSet( url, hashSet ):
-        """ saves the saved hashSet for the given url 
+    def _saveWebsite( url, website ):
+        """ saves the saved Website for the given url 
             @param[in] url
-            @param[in] hashSet
+            @param[in] Website
         """
         fname = Webwatcher.getStorageFname( url )
         if not os.path.exists( os.path.dirname(fname) ):
             os.makedirs( os.path.dirname(fname) )
-        dump( hashSet, open(fname, "w") )
+        dump( website, open(fname, "w") )
  
     @staticmethod
-    def _loadHashSet( url ):
-        """ returns the saved hashSet for the given url 
+    def _loadWebsite( url ):
+        """ returns the saved Website for the given url 
             @param[in] url
             @returns a set of hashs describing the url
         """
@@ -87,31 +116,26 @@ class Webwatcher:
         if os.path.exists(fname):
             return load( open(fname) )
         else:
-            return set()
+            return list()
     
     @staticmethod
-    def _getPageHashSet( url ):
-        """ returns the hashSet for the given page 
+    def _getPageWebsite( url ):
+        """ returns the Website for the given page 
             @param[in] url
             @returns a set of hashs describing one line of the page each 
         """
-
         assert "http" in url or "https" in url
-        hashSet = set()
-        for line in getoutput(LYNX % url).split("\n"):
-            hashSet.add( sha1(line).hexdigest() )
-
-        return hashSet
+        return [ line for line in getoutput(LYNX % url).split("\n") ]
 
 
 class TestWebWatcher(object):
     """ tests the Webwatcher object """
 
-    def testGetPageHashSet(self):
-        hS = Webwatcher._getPageHashSet( "http://www.heise.de" )
-        print hS
-        asdf
+    def testGetPageWebsite(self):
+        wS = Webwatcher._getPageWebsite( "http://www.heise.de" )
+        print wS
 
 
 if __name__ == '__main__':
     print Webwatcher().getChange("http://www.heise.de")
+    print Webwatcher().getChangeText("http://www.heise.de")
