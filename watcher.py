@@ -19,11 +19,12 @@ __version__ = "$Header$"
 
 from output.rss import RSS
 from watcher.webwatcher import Webwatcher
+from watcher.linux import LinuxWatcher
 
 import sys
 from os.path import expanduser
 sys.path.append( expanduser("~/.notifyTools") )
-from siteconfig import RSS_FEEDS, OUTPUT_STORAGE_PATH, WATCHER_STORAGE_PATH
+from siteconfig import RSS_FEEDS, OUTPUT_STORAGE_PATH, WATCHER_STORAGE_PATH, LINUX_WATCHER_OUTPUT
 
 
 class Watcher(object):
@@ -43,8 +44,12 @@ class Watcher(object):
 
 
 if __name__ == '__main__':
-    oL = [ RSS('Website Watcher', url, 'Website Watcher', fname, OUTPUT_STORAGE_PATH) for url, fname in RSS_FEEDS.items() ] 
+    oL = [ RSS('Website Watcher', url, 'Website Watcher', fname, storagePath=OUTPUT_STORAGE_PATH) for url, fname in RSS_FEEDS.items() ] 
     wL = ( Webwatcher(WATCHER_STORAGE_PATH), )
     w=Watcher( wL, oL )
     w.watch()
+
+    oL = ( RSS('Latest stable linux kernel versions', RSS_FILE_URL, "A list of the latest kernel versions.", fname=LINUX_WATCHER_OUTPUT, lastBuildDate = datetime.datetime.now()), )
+    wL = ( LinuxWatcher(backlog=3), )
+    wL.watch()
 

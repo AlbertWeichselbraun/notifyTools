@@ -32,10 +32,11 @@ class RSS(object):
 
     __slots__ = ('feed_title', 'feed_description', 'notifications', 'url', 'fname', 'storagePath' )
 
-    def __init__(self, title, url, description, fname, storagePath):
+    def __init__(self, title, url, description, fname, lastBuildDate=None, storagePath=None):
         """ @param[in] feed title
             @param[in] feed description
         """
+        self.lastBuildDate     = lastBuildDate
         self.feed_title        = title
         self.feed_description  = description
         self.url               = url
@@ -88,7 +89,7 @@ class RSS(object):
             title         = self.feed_title,
             link          = self.url,
             description   = self.feed_description,
-            lastBuildDate = datetime.now(),
+            lastBuildDate = self.lastBuildDate or datetime.now(),
             items         = self.notifications,)
 
         rss.write_xml(open(self.fname, "w"))
