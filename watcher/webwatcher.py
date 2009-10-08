@@ -50,7 +50,7 @@ class Webwatcher:
             if change  > minChangePercentage:
                 changeText = self.getChangeText( url )
                 for notifier in notifierList:
-                    notifier.addNotification("%s changed by %d %%" % (url, 100*change), url, "%s<br/><a href=\"%s\">more...</a>" % (changeText, url) )
+                    notifier.addNotification("%s changed by %d %%" % (url, 100*change), url, "<pre>%s</pre><br/><a href=\"%s\">more...</a>" % (changeText, url) )
 
 
     def _computeChange(self, url):
