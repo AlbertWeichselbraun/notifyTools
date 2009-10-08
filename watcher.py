@@ -23,7 +23,7 @@ from watcher.webwatcher import Webwatcher
 import sys
 from os.path import expanduser
 sys.path.append( expanduser("~/.notifyTools") )
-from siteconfig import RSS_FEEDS
+from siteconfig import RSS_FEEDS, OUTPUT_STORAGE_PATH, WATCHER_STORAGE_PATH
 
 
 class Watcher(object):
@@ -43,8 +43,8 @@ class Watcher(object):
 
 
 if __name__ == '__main__':
-    oL = [ RSS('Website Watcher', url, 'Website Watcher', fname) for url, fname in RSS_FEEDS.items() ] 
-    wL = ( Webwatcher(), )
+    oL = [ RSS('Website Watcher', url, 'Website Watcher', fname, OUTPUT_STORAGE_PATH) for url, fname in RSS_FEEDS.items() ] 
+    wL = ( Webwatcher(WATCHER_STORAGE_PATH), )
     w=Watcher( wL, oL )
     w.watch()
 

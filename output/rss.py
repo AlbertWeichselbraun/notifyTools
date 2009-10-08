@@ -19,26 +19,48 @@
 
 __version__ = "$Header$"
 
-
+from hashlib import sha1
 from datetime import datetime
+from cPickle import load, dump
+import os.path
 import PyRSS2Gen
+
+FEED_MAX_BACKLOG = 5
 
 class RSS(object):
     """ an RSS output object """
 
-    __slots__ = ('feed_title', 'feed_description', 'notifications', 'url', 'fname' )
+    __slots__ = ('feed_title', 'feed_description', 'notifications', 'url', 'fname', 'storagePath' )
 
-    def __init__(self, title, url, description, fname):
+    def __init__(self, title, url, description, fname, storagePath):
         """ @param[in] feed title
             @param[in] feed description
         """
-        self.notifications    = []
-        self.feed_title       = title
-        self.feed_description = description
-        self.url              = url
-        self.fname            = fname
+        self.feed_title        = title
+        self.feed_description  = description
+        self.url               = url
+        self.fname             = fname
+        self.storagePath       = storagePath
 
-    def addNotification(title, link, description, date=datetime.now()):
+        self._loadNotifications()
+
+
+    def _loadNotifications(self):
+        """ loads the list of notifications """
+        fname = os.path.join( self.storagePath, sha1( self.url).hexdigest() )
+        if os.path.exists( fname ):
+            self.notifications = load( open(fname) )
+        else:
+            self.notifications = []
+
+
+    def _saveNotifications(self):
+        """ saves the list of notifications """
+        fname = os.path.join( self.storagePath, sha1( self.url).hexdigest() )
+        dump( self.notifications, open(fname, "w" ) )
+
+
+    def addNotification(self, title, link, description, date=datetime.now()):
         """ @param[in] title The entry's title
             @param[in] link  A link to the entry
             @param[in] description
@@ -52,6 +74,10 @@ class RSS(object):
                 pubDate = date,
               )
            )
+
+        if len(self.notifications) > FEED_MAX_BACKLOG:
+            self.notifications = self.notifications[1:]
+
 
     def notify(self):
         """ publishs the rss feed at the given url

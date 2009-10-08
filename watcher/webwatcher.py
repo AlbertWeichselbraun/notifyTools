@@ -31,11 +31,11 @@ sys.path.append( expanduser("~/.notifyTools") )
 from siteconfig import WEBWATCHER_SITES
 
 LYNX="/usr/bin/lynx -force_html -nocolor -dump -nolist -nobold -pseudo_inlines=0 -display_charset=utf8 %s"
-STORAGE_PATH=".notify-webwatcher/%s"
 
 class Webwatcher:
 
-    def __init__(self):
+    def __init__(self, storagePath):
+        self.storagePath = storagePath
         self.changes = {}  # a dictionary containing the url, changed text and change percentage
 
 
@@ -50,7 +50,7 @@ class Webwatcher:
             if change  > minChangePercentage:
                 changeText = self.getChangeText( url )
                 for notifier in notifierList:
-                    notifier.addNotification("%s changed by %d %%" % (url, 100*change), "<br/><a href=\"%s\">more...</a>" % (changeText, url) )
+                    notifier.addNotification("%s changed by %d %%" % (url, 100*change), url, "%s<br/><a href=\"%s\">more...</a>" % (changeText, url) )
 
 
     def _computeChange(self, url):
@@ -87,32 +87,29 @@ class Webwatcher:
         return self.changes[url][0]
         
 
-    @staticmethod
-    def getStorageFname( url ):
+    def getStorageFname( self, url ):
         """ returns the storage location for the given url 
             @param[in] url
             @returns fname 
         """
-        return STORAGE_PATH % ( sha1(url).hexdigest() )
+        return os.path.join(self.storagePath, ( sha1(url).hexdigest() ) )
 
-    @staticmethod
-    def _saveWebsite( url, website ):
+    def _saveWebsite( self, url, website ):
         """ saves the saved Website for the given url 
             @param[in] url
             @param[in] Website
         """
-        fname = Webwatcher.getStorageFname( url )
+        fname = self.getStorageFname( url )
         if not os.path.exists( os.path.dirname(fname) ):
             os.makedirs( os.path.dirname(fname) )
         dump( website, open(fname, "w") )
  
-    @staticmethod
-    def _loadWebsite( url ):
+    def _loadWebsite( self, url ):
         """ returns the saved Website for the given url 
             @param[in] url
             @returns a set of hashs describing the url
         """
-        fname = Webwatcher.getStorageFname( url )
+        fname = self.getStorageFname( url )
         if os.path.exists(fname):
             return load( open(fname) )
         else:
