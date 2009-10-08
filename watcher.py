@@ -18,8 +18,9 @@
 __version__ = "$Header$"
 
 from output.rss import RSS
-from watcher.webwatcher import Webwatcher
+from watcher.webwatcher import WebWatcher
 from watcher.linux import LinuxWatcher
+from datetime import datetime
 
 import sys
 from os.path import expanduser
@@ -45,11 +46,10 @@ class Watcher(object):
 
 if __name__ == '__main__':
     oL = [ RSS('Website Watcher', url, 'Website Watcher', fname, storagePath=OUTPUT_STORAGE_PATH) for url, fname in RSS_FEEDS.items() ] 
-    wL = ( Webwatcher(WATCHER_STORAGE_PATH), )
-    w=Watcher( wL, oL )
-    w.watch()
+    wL = ( WebWatcher(WATCHER_STORAGE_PATH), )
+    Watcher(wL, oL).watch()
 
-    oL = ( RSS('Latest stable linux kernel versions', RSS_FILE_URL, "A list of the latest kernel versions.", fname=LINUX_WATCHER_OUTPUT, lastBuildDate = datetime.datetime.now()), )
+    oL = ( RSS('Latest stable linux kernel versions', 'http://www.semanticlab.net/linux.rss', "A list of the latest kernel versions.", fname=LINUX_WATCHER_OUTPUT, lastBuildDate = datetime.now()), )
     wL = ( LinuxWatcher(backlog=3), )
-    wL.watch()
+    Watcher(wL, oL).watch()
 

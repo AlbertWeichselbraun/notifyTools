@@ -43,20 +43,20 @@ class LinuxWatcher(object):
 
         assert isinstance(notifierList, tuple) or isinstance(notifierList, list)
 
-        kernel_listing    = get_kernel_listing()
-        relevant_versions = parse_kernel_versions( kernel_listing )
-        generate_rss(RSS_FILE_PATH, relevant_versions.values(), self.backlog)
+        kernel_listing    = self._get_kernel_listing()
+        relevant_versions = self._parse_kernel_versions( kernel_listing ).values()
 
         relevant_versions = sorted([ (int(major.split(".")[2]), major, date) for minor, major, date in relevant_versions ], reverse=True)
-        for major, kernel_version, date in relevant_versions[:self.backlog]:
-            notifier.addNotification( 
-                title = kernel_version,
-                link = "%s/ChangeLog-%s" % (KERNEL_DIR, kernel_version),
-                description = """The latest stable version of the Linux kernel is: 
-                                 <a href="%slinux-%s.tar.bz2">%s</a>,
-                                 <a href="%sChangeLog-%s">ChangeLog</a>""" % (KERNEL_DIR, kernel_version, kernel_version, KERNEL_DIR, kernel_version), 
-                pubDate = datetime.datetime.strptime(date, "%d-%b-%Y %H:%M"),
-              )
+        for notifier in notifierList:
+            for major, kernel_version, date in relevant_versions[:self.backlog]:
+                notifier.addNotification( 
+                    title = kernel_version,
+                    link = "%s/ChangeLog-%s" % (KERNEL_DIR, kernel_version),
+                    description = """The latest stable version of the Linux kernel is: 
+                                     <a href="%slinux-%s.tar.bz2">%s</a>,
+                                     <a href="%sChangeLog-%s">ChangeLog</a>""" % (KERNEL_DIR, kernel_version, kernel_version, KERNEL_DIR, kernel_version), 
+                    date  = datetime.datetime.strptime(date, "%d-%b-%Y %H:%M"),
+                  )
     
     @staticmethod
     def _get_kernel_listing():

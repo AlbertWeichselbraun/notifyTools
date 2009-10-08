@@ -30,7 +30,7 @@ FEED_MAX_BACKLOG = 5
 class RSS(object):
     """ an RSS output object """
 
-    __slots__ = ('feed_title', 'feed_description', 'notifications', 'url', 'fname', 'storagePath' )
+    __slots__ = ('feed_title', 'feed_description', 'notifications', 'url', 'fname', 'storagePath', 'lastBuildDate', )
 
     def __init__(self, title, url, description, fname, lastBuildDate=None, storagePath=None):
         """ @param[in] feed title
@@ -48,6 +48,10 @@ class RSS(object):
 
     def _loadNotifications(self):
         """ loads the list of notifications """
+        if not self.storagePath:
+            self.notifications = []
+            return
+
         fname = os.path.join( self.storagePath, sha1( self.url).hexdigest() )
         if os.path.exists( fname ):
             self.notifications = load( open(fname) )
@@ -78,6 +82,9 @@ class RSS(object):
 
         if len(self.notifications) > FEED_MAX_BACKLOG:
             self.notifications = self.notifications[1:]
+        
+        if self.storagePath:
+            self._saveNotifications()
 
 
     def notify(self):
