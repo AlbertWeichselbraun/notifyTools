@@ -23,8 +23,8 @@ from watcher.linux import LinuxWatcher
 from datetime import datetime
 
 import sys
-from os.path import expanduser
-sys.path.append( expanduser("~/.notifyTools") )
+from os.path import expanduser, dirname
+sys.path.append( expanduser("~/.notifyTools"), dirname( __FILE__ ) )
 from siteconfig import RSS_FEEDS, OUTPUT_STORAGE_PATH, WATCHER_STORAGE_PATH, LINUX_WATCHER_OUTPUT
 
 
