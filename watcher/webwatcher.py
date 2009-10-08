@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
-""" Webwatcher """
+""" @package watcher.webwatcher 
+    Watches web sites for changes.
+"""
 
 # (C)opyrights 2009 by Albert Weichselbraun <albert@weichselbraun.net>
 # 
@@ -32,7 +34,7 @@ from siteconfig import WEBWATCHER_SITES
 
 LYNX="/usr/bin/lynx -force_html -nocolor -dump -nolist -nobold -pseudo_inlines=0 -display_charset=utf8 %s"
 
-class Webwatcher:
+class WebWatcher:
 
     def __init__(self, storagePath):
         self.storagePath = storagePath
@@ -44,7 +46,6 @@ class Webwatcher:
             changes observed """
 
         assert isinstance(notifierList, tuple) or isinstance(notifierList, list)
-        changes = {}
         for url, minChangePercentage in WEBWATCHER_SITES.items():
             change = self.getChange( url )
             if change  > minChangePercentage:
@@ -129,10 +130,10 @@ class TestWebWatcher(object):
     """ tests the Webwatcher object """
 
     def testGetPageWebsite(self):
-        wS = Webwatcher._getPageWebsite( "http://www.heise.de" )
+        wS = WebWatcher._getPageWebsite( "http://www.heise.de" )
         print wS
 
 
 if __name__ == '__main__':
-    print Webwatcher().getChange("http://www.heise.de")
-    print Webwatcher().getChangeText("http://www.heise.de")
+    print WebWatcher().getChange("http://www.heise.de")
+    print WebWatcher().getChangeText("http://www.heise.de")
