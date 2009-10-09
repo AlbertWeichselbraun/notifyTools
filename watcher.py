@@ -24,7 +24,7 @@ from datetime import datetime
 
 import sys
 from os.path import expanduser, dirname
-sys.path.append( expanduser("~/.notifyTools"), dirname( __FILE__ ) )
+sys.path.extend( (expanduser("~/.notifyTools"), dirname( __file__ ),) )
 from siteconfig import RSS_FEEDS, OUTPUT_STORAGE_PATH, WATCHER_STORAGE_PATH, LINUX_WATCHER_OUTPUT
 
 
