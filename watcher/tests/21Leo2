@@ -1,0 +1,2204 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Wohnungen - Leo 21 - Wohnraum zum Wohlfühlen(21., Sebastian-Kohl-Gasse 6-12) | wvg Bauträger - Willkommen zuhause!</title>
+    
+    <meta name="description" content="wvg Bautr&auml;ger errichtet Eigentumswohnungen in Wien und Umgebung. Informieren Sie sich auf unserer Website &uuml;ber das Angebot an frei finanzierten und gef&ouml;rderten Wohnungen." />
+    <meta name="keywords" content="wvg Bautr&auml;ger errichtet Eigentumswohnungen in Wien und Umgebung. Informieren Sie sich auf unserer Website &uuml;ber das Angebot an frei finanzierten und gef&ouml;rderten Wohnungen." />
+    
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://www.wvg.at/frontend/css/normalize.min.css">
+    <link rel="stylesheet" href="http://www.wvg.at/frontend/css/html5boilerplate.css">
+    <link rel="stylesheet" href="http://www.wvg.at/frontend/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://www.wvg.at/frontend/css/style.css?26082013">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+    <!--[if IE 7]>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome-ie7.css" rel="stylesheet">
+    <![endif]-->
+
+    <script src="http://www.wvg.at/frontend/js/vendor/modernizr-2.6.2.min.js"></script>
+    <script>var WEBROOT = 'http://www.wvg.at';</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="http://www.wvg.at/frontend/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+    <script src="http://code.jquery.com/jquery-migrate-1.1.0.js"></script>
+</head>
+<body data-page="" data-anchor="body">
+
+    <div class="hive"><!-- container -->
+
+        <div class="header">
+            <h1><a href="http://www.wvg.at">wvg Bauträger</a></h1>
+
+            <ul id="menu" class="flats">
+                <li id="home"><a href="http://www.wvg.at" onmouseover="addHover('home');">Home</a></li>
+                <li id="flats"><a href="/projekte" onmouseover="addHover('flats');">Wohnungen</a></li>
+                <li id="references"><a href="/referenzen" onmouseover="addHover('references');">Referenzen</a></li>
+                <li id="news"><a href="/news" onmouseover="addHover('news');">News</a></li>
+                <li id="contact"><a href="/kontakt" onmouseover="addHover('contact');">Kontakt</a></li>
+            </ul>
+
+            <div id="controlPanel">
+                <a href="#" id="controlPanelButton">Kundencenter</a>
+                <div id="controlPanelContent" style="display: none;">
+
+                                        <div class="controlPanelWelcome" style="display: block;">
+                        <strong>Das Gratis-Service, das niemals nervt!</strong> Das wvg Kundencenter,
+                        der schnellste und bequemste Weg zu Ihrer Wohnung!<br><br>
+                    </div>
+
+                    <div class="controlPanelForm">
+                        <form action="/kundencenter" class="form-stacked" id="UserViewForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/></div>                            <div class="control-group"><div class="controls"><input name="data[Login][mail]" class="span3Login" tabindex="1" placeholder="E-Mail" type="text" id="LoginMail"/></div></div>
+                            <div class="control-group"><div class="controls"><input name="data[Login][password]" class="span3Login" tabindex="2" placeholder="Passwort" type="password" id="LoginPassword"/></div></div>
+
+
+                            <div class="clearfix">
+                                <div class="input">
+                                    <input type="submit" class="btn btn-primary" id="loginButton" value="Login">
+                                    <a href="/kundencenter/registrierung" class="btn magenta">Registieren!</a>
+                                </div>
+                            </div>
+                        </form>
+
+                        » <a href="/kundencenter/passwort_vergessen">Passwort vergessen?</a><br>
+                        » <a href="/kundencenter/warum_registrieren">Warum registrieren?</a>
+                    </div>
+
+                    
+                    <div id="controlPanelBottom"><a href="#" id="controlPanelClose">Kundencenter schließen</a></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="spotlight">
+            <div class="spotlight-header">
+
+                                    <h2>Leo 21 - Wohnraum zum Wohlfühlen <span class="subtitle">21., Sebastian-Kohl-Gasse 6-12</span></h2>
+
+                                            <div class="spotlight-actions"><a href="#project-quickrequest" data-toggle="tab" class="quickrequest">Schnellanfrage</a><a target="_blank"  href="/projects/pdfprint/info/39" class="btn_small">PDF-Download</a><a href="#project-tellafriend" data-toggle="tab" class="btn_small last">Tell a friend</a>
+                                   </div>                                                </div>
+
+            <a href="#" class="show_less_more" data-scroll="main">Mehr <i class="icon icon-caret-down"></i></a>
+
+        </div>
+        <div data-anchor="main" class="main-container aside-on-left">
+            <div class="main clearfix">
+                <div class="content-container clearfix">
+<div class="content">
+    <div class="inner-content" style="margin: 30px 20px;">
+      
+
+        <div class="tab-content">
+            <!-- Beschreibung -->
+            <div class="tab-pane active" id="project-description">
+                
+<p class="MsoNormal">Nahe des Floridsdorfer Spitzes, etwa 10 Minuten zu Fuß entfernt, planen wir gemeinsam mit der WBV-GPA 101 freifinanzierte Eigentumswohnungen (wvg) und 149 geförderte Wohnungen (WBV-GPA). Die Wohnhausanlage wird an vier Straßen in der <span style="font-weight: bold;">Leopoldauer Str</span><strong>aße</strong>, <span style="font-weight: bold;">Siegfriedgasse</span>, <span style="font-weight: bold;">Sebastian-Kohl-Gass<strong>e</strong></span><strong> </strong>und <span style="font-weight: bold;">Andreas-Hofer-Straße</span> liegen und mit erwähnenswerten <span style="font-weight: bold;">Innenhof-Grünanlagen</span> ausgestattet sein. Die Bauteile der wvg werden in der&nbsp;<span style="font-weight: bold;">Sebastian-Kohl-Gass<strong>e 6-12 </strong></span>und in der <span style="font-weight: bold;"><strong>Siegfriedgasse 5</strong></span> liegen – hier werden sich die neuen Bewohner so richtig wohlfühlen.</p>
+
+<p class="MsoNormal">Durch einen in der Anlage geplanten <span style="font-weight: bold;">Lebensmittelmarkt</span> wird der tägliche Einkauf erleichtert.<br />
+Zu Fuß oder mit dem Fahrrad – das <span style="font-weight: bold;">Naherholungsgebiet Alte Donau</span> ist schnell erreicht.</p>
+
+<p class="MsoNormal">Alle Wohnungen werden über genügend große Freiflächen, wie Terrassen, Balkone, Loggien und Eigengärten verfügen und im schlüsselfertigen Zustand, unter anderem mit Fertigparkettböden, Sanitärausstattung, etc., den neuen Bewohnern übergeben.</p>
+
+<p class="MsoNormal">Ein weiterer Vorteil des Projektes ist die Anbindung an den <span style="font-weight: bold;">Verkehrsknotenpunkt Floridsdorf</span> mit der U6, der Schnellbahn, zahlreichen Bussen und Straßenbahnen. Die Haltestelle der Busse 28A und 29A befindet sich direkt vor der Haustür. Auch die Autobahnauffahrt A22 ist nur ca. 4 Minuten entfernt.</p>
+
+<p class="MsoNormal">Der Vergabestart für unsere 101 freifinanzierten Eigentumswohnungen erfolgte im <strong>Juli</strong><span style="font-weight: bold;"> 2013</span>, der Baubeginn ist mit <strong>Sommer/Herbst 2013 </strong>geplant– sichern Sie sich jetzt eine Wohnung!</p>
+
+<p><em>Exklusive Reservierungen</em> bereits möglich - rufen Sie uns unter <strong>(01) 972 73 - 20</strong> an.</p>
+
+<p>&nbsp;</p>
+
+<p class="MsoNormal">&nbsp;</p>
+
+<p>&nbsp;</p>
+
+                
+                            </div>
+
+            <!-- Details -->
+                        <div class="tab-pane" id="project-details">
+                <table cellpadding="0" cellspacing="0" class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th colspan="2">Stammdaten</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="width:30%"><strong>Projekttitel</strong></td>
+                            <td>
+                                21., Sebastian-Kohl-Gasse 6-12 (21Leo2)<br />
+                                Leo 21 - Wohnraum zum Wohlfühlen                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:30%"><strong>Projektart</strong></td>
+                            <td>
+                                Eigentumsprojekt, Neubau                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:30%"><strong>Projektstatus</strong></td>
+                            <td>In Vergabe</td>
+                        </tr>
+
+                        <tr><td colspan="2" style="border-left:0;border-right:0;"></td></tr>
+                        <tr>
+                            <td style="width:30%"><strong>Straße</strong></td>
+                            <td>Sebastian-Kohl-Gasse 6-12 </td>
+                        </tr>
+                        <tr>
+                            <td style="width:30%"><strong>PLZ, Ort</strong></td>
+                            <td>1210, Wien</td>
+                        </tr>
+                        <tr>
+                            <td style="width:30%"><strong>Land</strong></td>
+                            <td>Österreich</td>
+                        </tr>
+
+                                                <tr>
+                            <td style="width:30%"><strong>Nähe</strong></td>
+                            <td>Floridsdorfer Spitz</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="width:30%"><strong>Stiegen</strong></td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td style="width:30%"><strong>Regelgeschosse</strong></td>
+                            <td>5 (inkl. EG)</td>
+                        </tr>
+
+                                                <tr>
+                            <td style="width:30%"><strong>Dachgeschosse</strong></td>
+                            <td>2</td>
+                        </tr>
+                                            </tbody>
+                </table>
+
+                <table cellpadding="0" cellspacing="0" class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th colspan="2">Flächendaten</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td style="width:30%"><strong>Wohnnutzfläche</strong></td>
+                            <td>
+                                8765.00 m²<br />
+                                von 55.00 m² bis 122.00 m²
+                            </td>
+                        </tr>
+
+                        
+                        <tr><td colspan="2" style="border-left:0;border-right:0;"></td></tr>
+                        <tr>
+                            <td style="width:30%"><strong>Wohnungen</strong></td>
+                            <td>101</td>
+                        </tr>
+                        <tr>
+                            <td style="width:30%"><strong>Freie Wohnungen</strong></td>
+                            <td>59</td>
+                        </tr>
+
+                                                <tr>
+                            <td style="width:30%"><strong>Stellplätze</strong></td>
+                            <td>83</td>
+                        </tr>
+                        
+                                                <tr>
+                            <td style="width:30%"><strong>Stellplatzpreis</strong></td>
+                            <td>€ 14.900,00</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="width:30%"><strong>Lift</strong></td>
+                            <td>vorhanden</td>
+                        </tr>
+
+                                                <tr><td colspan="2" style="border-left:0;border-right:0;"></td></tr>
+                        <tr>
+                            <td style="width:30%"><strong>Kaufpreis</strong></td>
+                            <td>von € 131.900,00 bis € 349.900,00</td>
+                        </tr>
+                        
+                                                <tr>
+                            <td style="width:30%"><strong>ø Kaufpreis/m²</strong></td>
+                            <td>€ 2.655,09</td>
+                        </tr>
+                        
+                                                <tr>
+                            <td style="width:30%"><strong>ø Betriebsk./m²</strong></td>
+                            <td>€ 1,30</td>
+                        </tr>
+                                            </tbody>
+                </table>
+
+
+                <table cellpadding="0" cellspacing="0" class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th colspan="2">Technische Daten</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        
+                                                <tr>
+                            <td style="width:30%"><strong>HWB (Heizwärmebedarf)</strong></td>
+                            <td>
+                                                                                                        <strong>Sebastian-Kohl-Gasse 6 / Stiege 1:</strong> 20.66 kWh/m²&middot;a<br />
+                                                                                                                                            <strong>Sebastian-Kohl-Gasse 6 / Stiege 2:</strong> 23.35 kWh/m²&middot;a<br />
+                                                                                                                                            <strong>Sebastian-Kohl-Gasse 8:</strong> 20.66 kWh/m²&middot;a<br />
+                                                                                                                                            <strong>Sebastian-Kohl-Gasse 10:</strong> 20.66 kWh/m²&middot;a<br />
+                                                                                                                                            <strong>Sebastian-Kohl-Gasse 12:</strong> 20.66 kWh/m²&middot;a<br />
+                                                                                                                                            <strong>Siegfriedgasse 5:</strong> 21.22 kWh/m²&middot;a<br />
+                                                                                                </td>
+                        </tr>
+                        
+                        
+                                                                                                                                                <tr>
+                            <td style="width:30%"><strong>Architekt</strong></td>
+                            <td>Malek & Herbst</td>
+                        </tr>
+                                                                    </tbody>
+                </table>
+
+
+            </div>
+            
+            <!-- Gallery -->
+            <div class="tab-pane" id="project-gallery">
+                
+                <ul class="object-grid object-grid-small">
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/leo_26_exterior_cam_01.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/leo_26_exterior_cam_01.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/leo_26_exterior_cam_05.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/leo_26_exterior_cam_05.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/leo_26_exterior_cam_07.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/leo_26_exterior_cam_07.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/leo_26_exterior_cam_08.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/leo_26_exterior_cam_08.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/leo_26_exterior_cam_04.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/leo_26_exterior_cam_04.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/leo_26_exterior_cam_09.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/leo_26_exterior_cam_09.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/leo_26_exterior_cam_12.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/leo_26_exterior_cam_12.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/leo_26_exterior_cam_13.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/leo_26_exterior_cam_13.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/leo_26_exterior_cam_03.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/leo_26_exterior_cam_03.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/leo_26_exterior_cam_11.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/leo_26_exterior_cam_11.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/dsc_1026_landscape_klein.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/dsc_1026_landscape_klein.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/dsc_1021_klein.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/dsc_1021_klein.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/dsc_1020_klein.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/dsc_1020_klein.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/dsc_1019_klein.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/dsc_1019_klein.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/dsc_1068_klein.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/dsc_1068_klein.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/dsc_1073_klein.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/dsc_1073_klein.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/leo_26_top_10_cam_01.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/leo_26_top_10_cam_01.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/leo_26_top_10_cam_02.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/leo_26_top_10_cam_02.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/leo_26_top_06_cam_01.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/leo_26_top_06_cam_01.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/leo_26_top_18_cam_01.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/leo_26_top_18_cam_01.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/leo_26_top_19_cam_02_v04.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/leo_26_top_19_cam_02_v04.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/leo_26_top_19_cam_01.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/leo_26_top_19_cam_01.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/leo_26_top_06_cam_02.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/leo_26_top_06_cam_02.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/leo_26_top_18_cam_02.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/leo_26_top_18_cam_02.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/21leo26_modell1.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/21leo26_modell1.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/21leo26_modell2.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/21leo26_modell2.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/21leo26_modell6.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/21leo26_modell6.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/21leo26_modell8.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/21leo26_modell8.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/21leo26_modell7.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/21leo26_modell7.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/21leo26_modell3.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/21leo26_modell3.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/21leo236_modell5.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/21leo236_modell5.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                                            <li>
+                        <a href="http://www.wvg.at/media/filter/large/img/21leo26_modell4.jpg" class="fancybox" rel="project[21Leo2]">
+                            <img src="http://www.wvg.at/media/filter/thumbnail/img/21leo26_modell4.jpg" class="img-polaroid" style="width:180px;height:140px;"
+                            title="" alt="">
+                        </a>
+                    </li>
+                                    </ul>
+            </div>
+
+            <!-- Geschosspläne -->
+            <div class="tab-pane" id="project-plans">
+                <ul class="object-grid object-grid-small">
+                                                                                            <li style="position: relative">
+                            <a href="http://www.wvg.at/media/transfer/doc/21leo26_geschossplaene_gesamt.pdf">
+                                <img src="http://www.wvg.at/media/transfer/doc/thumb_21leo26_geschossplaene_gesamt.pdf.gif" class="img-polaroid" style="width:180px;height:140px;"
+                                title="Geschosspläne Gesamt" alt="">
+                            </a>
+                            <p class="plan-caption">Geschosspläne Gesamt</p>
+                        </li>
+                                                                                                                    <li style="position: relative">
+                            <a href="http://www.wvg.at/media/transfer/doc/21leo26_lageplan.pdf">
+                                <img src="http://www.wvg.at/media/transfer/doc/thumb_21leo26_lageplan.pdf.gif" class="img-polaroid" style="width:180px;height:140px;"
+                                title="Lageplan" alt="">
+                            </a>
+                            <p class="plan-caption">Lageplan</p>
+                        </li>
+                                                                                                                    <li style="position: relative">
+                            <a href="http://www.wvg.at/media/transfer/doc/21leo26_eg_uebersicht.pdf">
+                                <img src="http://www.wvg.at/media/transfer/doc/thumb_21leo26_eg_uebersicht.pdf.gif" class="img-polaroid" style="width:180px;height:140px;"
+                                title="EG Übersicht" alt="">
+                            </a>
+                            <p class="plan-caption">EG Übersicht</p>
+                        </li>
+                                                                                                                    <li style="position: relative">
+                            <a href="http://www.wvg.at/media/transfer/doc/21leo26_kg_uebersicht.pdf">
+                                <img src="http://www.wvg.at/media/transfer/doc/thumb_21leo26_kg_uebersicht.pdf.gif" class="img-polaroid" style="width:180px;height:140px;"
+                                title="KG Übersicht" alt="">
+                            </a>
+                            <p class="plan-caption">KG Übersicht</p>
+                        </li>
+                                                                                                                    <li style="position: relative">
+                            <a href="http://www.wvg.at/media/transfer/doc/21leo26_kg.pdf">
+                                <img src="http://www.wvg.at/media/transfer/doc/thumb_21leo26_kg.pdf.gif" class="img-polaroid" style="width:180px;height:140px;"
+                                title="KG" alt="">
+                            </a>
+                            <p class="plan-caption">KG</p>
+                        </li>
+                                                                                                                    <li style="position: relative">
+                            <a href="http://www.wvg.at/media/transfer/doc/21leo26_eg.pdf">
+                                <img src="http://www.wvg.at/media/transfer/doc/thumb_21leo26_eg.pdf.gif" class="img-polaroid" style="width:180px;height:140px;"
+                                title="EG" alt="">
+                            </a>
+                            <p class="plan-caption">EG</p>
+                        </li>
+                                                                                                                    <li style="position: relative">
+                            <a href="http://www.wvg.at/media/transfer/doc/21leo26_1_og.pdf">
+                                <img src="http://www.wvg.at/media/transfer/doc/thumb_21leo26_1_og.pdf.gif" class="img-polaroid" style="width:180px;height:140px;"
+                                title="1.OG" alt="">
+                            </a>
+                            <p class="plan-caption">1.OG</p>
+                        </li>
+                                                                                                                    <li style="position: relative">
+                            <a href="http://www.wvg.at/media/transfer/doc/21leo26_2_og.pdf">
+                                <img src="http://www.wvg.at/media/transfer/doc/thumb_21leo26_2_og.pdf.gif" class="img-polaroid" style="width:180px;height:140px;"
+                                title="2.OG" alt="">
+                            </a>
+                            <p class="plan-caption">2.OG</p>
+                        </li>
+                                                                                                                    <li style="position: relative">
+                            <a href="http://www.wvg.at/media/transfer/doc/21leo26_3_og_und_1_dg.pdf">
+                                <img src="http://www.wvg.at/media/transfer/doc/thumb_21leo26_3_og_und_1_dg.pdf.gif" class="img-polaroid" style="width:180px;height:140px;"
+                                title=" 3.OG" alt="">
+                            </a>
+                            <p class="plan-caption"> 3.OG</p>
+                        </li>
+                                                                                                                    <li style="position: relative">
+                            <a href="http://www.wvg.at/media/transfer/doc/21leo26_4_og_und_2_dg.pdf">
+                                <img src="http://www.wvg.at/media/transfer/doc/thumb_21leo26_4_og_und_2_dg.pdf.gif" class="img-polaroid" style="width:180px;height:140px;"
+                                title=" 4.OG" alt="">
+                            </a>
+                            <p class="plan-caption"> 4.OG</p>
+                        </li>
+                                                                                                                    <li style="position: relative">
+                            <a href="http://www.wvg.at/media/transfer/doc/21leo26_1_dg.pdf">
+                                <img src="http://www.wvg.at/media/transfer/doc/thumb_21leo26_1_dg.pdf.gif" class="img-polaroid" style="width:180px;height:140px;"
+                                title="1.DG" alt="">
+                            </a>
+                            <p class="plan-caption">1.DG</p>
+                        </li>
+                                                                                                                    <li style="position: relative">
+                            <a href="http://www.wvg.at/media/transfer/doc/21leo26_2_dg.pdf">
+                                <img src="http://www.wvg.at/media/transfer/doc/thumb_21leo26_2_dg.pdf.gif" class="img-polaroid" style="width:180px;height:140px;"
+                                title="2.DG" alt="">
+                            </a>
+                            <p class="plan-caption">2.DG</p>
+                        </li>
+                                                                                                                    <li style="position: relative">
+                            <a href="http://www.wvg.at/media/transfer/doc/21leo26_3_og_und_1_dg_2.pdf">
+                                <img src="http://www.wvg.at/media/transfer/doc/thumb_21leo26_3_og_und_1_dg_2.pdf.gif" class="img-polaroid" style="width:180px;height:140px;"
+                                title="1.DG" alt="">
+                            </a>
+                            <p class="plan-caption">1.DG</p>
+                        </li>
+                                                                                                                    <li style="position: relative">
+                            <a href="http://www.wvg.at/media/transfer/doc/21leo26_4_og_und_2_dg_2.pdf">
+                                <img src="http://www.wvg.at/media/transfer/doc/thumb_21leo26_4_og_und_2_dg_2.pdf.gif" class="img-polaroid" style="width:180px;height:140px;"
+                                title="2.DG" alt="">
+                            </a>
+                            <p class="plan-caption">2.DG</p>
+                        </li>
+                                                            </ul>
+            </div>
+
+            <!-- Lage -->
+            <div class="tab-pane" id="project-location">
+                <style>
+                 #map_canvas {
+                    margin:0;
+                    padding:0;
+                    width:600px;
+                    height:500px;
+                 }
+                </style>
+                <div id="map_canvas"></div>
+            </div>
+
+            <!-- Schnellanfrage -->
+            <div class="tab-pane" id="project-quickrequest"></div>
+
+            <!-- Tellafriend -->
+            <div class="tab-pane" id="project-tellafriend"></div>
+        </div>
+
+    </div>
+</div><!-- .content -->
+
+<div class="aside aside-on-left">
+    <ul class="aside-menu">
+        <li class="active"><a data-toggle="tab" class="gi-icon gi-icon-description"  href="#project-description">Beschreibung</a></li>
+
+                <li><a data-toggle="tab" class="gi-icon gi-icon-details"           href="#project-details">Details</a></li>
+        
+                <li><a data-toggle="tab" class="gi-icon gi-icon-gallery"           href="#project-gallery">Galerie</a></li>
+        
+                <li><a data-toggle="tab" class="gi-icon gi-icon-plans"             href="#project-plans">Geschosspläne</a></li>
+        
+        <li><a data-toggle="tab" class="gi-icon gi-icon-location"          href="#project-location">Lage</a></li>
+
+        <li style="display:none"><a data-toggle="tab" class="gi-icon gi-icon-location"          href="#project-quickrequest">Schnellanfrage</a></li>
+
+        <li style="background:none;height:40px;">&nbsp;</li>
+                <li><a class="gi-icon gi-icon-tops" data-scroll="#tops"href="/projekte">Wohnungen</a></li>
+        
+                <li><a class="gi-icon gi-icon-back" href="/projekte">Zurück</a></li>
+    </ul>
+</div><!-- .aside -->
+
+
+<div class="project-tops clearfix" style="clear: both;">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css" />
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+
+<h3 data-anchor="#tops">Wohnungen</h3>
+
+<div class="content content-wide">
+    <div class="inner-content">
+
+
+            <form action="/projects/filterTops/39/21Leo2" id="filterTopsForm" class="form-horizontal form-compact" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/></div>            <fieldset style="padding-top:0;">
+                <legend><i class="icon icon-filter"></i> Wohnungen filtern</legend>
+
+                <table cellpadding="0" cellspacing="0" class="table">
+                    <thead>
+                        <tr>
+                            <th style="width: 20%;">Fläche <span class="slider-range-size-values"></span></th>
+                            <th style="width: 20%;">Zimmer</th>
+                            <th style="width: 20%;">Geschoss</th>
+                            <th style="width: 40%;">Kaufpreis</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="slider-range-container">
+                                    <span class="slider-range-min-value" data-slider="slider-range-size"></span>
+                                    <span class="slider-range-max-value" data-slider="slider-range-size"></span>
+                                    <div id="slider-range-size" class="slider-range-ui"></div>
+                                    <input type="hidden" name="data[Slider][minSize]" value="55.00" id="SliderMinSize"/>                                    <input type="hidden" name="data[Slider][maxSize]" value="122.00" id="SliderMaxSize"/>                                </div>
+                            </td>
+                            <td>
+                                <div class="slider-range-container">
+                                    <span class="slider-range-min-value" data-slider="slider-range-rooms"></span>
+                                    <span class="slider-range-max-value" data-slider="slider-range-rooms"></span>
+                                    <div id="slider-range-rooms" class="slider-range-ui"></div>
+                                    <input type="hidden" name="data[Slider][minRooms]" value="2" id="SliderMinRooms"/>                                    <input type="hidden" name="data[Slider][maxRooms]" value="5" id="SliderMaxRooms"/>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="slider-range-container">
+                                    <span class="slider-range-min-value" data-slider="slider-range-storey"></span>
+                                    <span class="slider-range-max-value" data-slider="slider-range-storey"></span>
+                                    <div id="slider-range-storey" class="slider-range-ui"></div>
+                                    <input type="hidden" name="data[Slider][minStorey]" id="SliderMinStorey"/>                                    <input type="hidden" name="data[Slider][maxStorey]" id="SliderMaxStorey"/>                                    <input type="hidden" name="data[Slider][minStoreyType]" id="SliderMinStoreyType"/>                                    <input type="hidden" name="data[Slider][maxStoreyType]" id="SliderMaxStoreyType"/>                                    <input type="hidden" name="data[Slider][minStoreyOld]" value="0" id="SliderMinStoreyOld"/>                                    <input type="hidden" name="data[Slider][maxStoreyOld]" value="5" id="SliderMaxStoreyOld"/>                                </div>
+                            </td>
+                            <td>
+                                <div class="slider-range-container">
+                                    <span class="slider-range-min-value" data-slider="slider-range-price"></span>
+                                    <span class="slider-range-max-value" data-slider="slider-range-price"></span>
+                                    <div id="slider-range-price" class="slider-range-ui"></div>
+                                    <input type="hidden" name="data[Slider][minPrice]" value="131900.00" id="SliderMinPrice"/>                                    <input type="hidden" name="data[Slider][maxPrice]" value="349900.00" id="SliderMaxPrice"/>                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </fieldset>
+        
+        
+                        <div class="accordion accordion-buildings" id="accordion_building_487">
+
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_building_487" href="#collapseBuilding_487">
+                    <!-- building title -->
+                    <i class="icon-chevron-up"></i>
+                    Sebastian-Kohl-Gasse 6 / Stiege 1                    (10 Objekte)
+                    <span style="float:right">
+                        Gebäude: 4 OG + 1 DG                    </span>
+                    <!-- -->
+                  </a>
+                </div>
+                <div id="collapseBuilding_487" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+                    <!-- tops -->
+                    <ul class="object-grid object-grid-tops clearfix">
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1184-sebastian-kohl-gasse-6-stiege-1-top-1"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_6_stg_1_top_1_3d.jpg" alt="Top 1" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 6 / Stiege 1 / Top 1 (1.OG)</span>
+                                    <span class="top-details">
+                                        82,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 209.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1205-sebastian-kohl-gasse-6-stiege-1-top-4"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_6_stg_1_top_4_3d.jpg" alt="Top 4" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 6 / Stiege 1 / Top 4 (2.OG)</span>
+                                    <span class="top-details">
+                                        83,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 209.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1207-sebastian-kohl-gasse-6-stiege-1-top-6"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_6_stg_1_top_6_3d.jpg" alt="Top 6" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 6 / Stiege 1 / Top 6 (2.OG)</span>
+                                    <span class="top-details">
+                                        88,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 219.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1226-sebastian-kohl-gasse-6-stiege-1-top-7"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_6_stg_1_top_7_3d.jpg" alt="Top 7" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 6 / Stiege 1 / Top 7 (3.OG)</span>
+                                    <span class="top-details">
+                                        83,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 224.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1228-sebastian-kohl-gasse-6-stiege-1-top-9"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_6_stg_1_top_9_3d.jpg" alt="Top 9" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 6 / Stiege 1 / Top 9 (3.OG)</span>
+                                    <span class="top-details">
+                                        88,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 229.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1247-sebastian-kohl-gasse-6-stiege-1-top-10"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_6_top_10_3d.jpg" alt="Top 10" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 6 / Stiege 1 / Top 10 (4.OG)</span>
+                                    <span class="top-details">
+                                        83,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 239.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1248-sebastian-kohl-gasse-6-stiege-1-top-11"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_6_top_11_3d.jpg" alt="Top 11" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 6 / Stiege 1 / Top 11 (4.OG)</span>
+                                    <span class="top-details">
+                                        111,00 m²,
+                                        4 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 279.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1249-sebastian-kohl-gasse-6-stiege-1-top-12"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_6_top_12_3d.jpg" alt="Top 12" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 6 / Stiege 1 / Top 12 (4.OG)</span>
+                                    <span class="top-details">
+                                        88,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 239.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="javascript:void();"
+                                    class="img-polaroid" style="cursor:default"><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_6_stg_1_top_13_3d.jpg" alt="Top 13" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 6 / Stiege 1 / Top 13 (DG)</span>
+                                    <span class="top-details">
+                                        81,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    <span style="color:red;">Bereits Verkauft!</span>
+                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1267-sebastian-kohl-gasse-6-stiege-1-top-14"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_6_stg_1_top_14_3d.jpg" alt="Top 14" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 6 / Stiege 1 / Top 14 (DG)</span>
+                                    <span class="top-details">
+                                        84,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 269.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                            </ul>
+                    <!-- -->
+                  </div>
+                </div>
+              </div>
+
+            </div>
+                
+                        <div class="accordion accordion-buildings" id="accordion_building_488">
+
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_building_488" href="#collapseBuilding_488">
+                    <!-- building title -->
+                    <i class="icon-chevron-up"></i>
+                    Sebastian-Kohl-Gasse 6 / Stiege 2                    (8 Objekte)
+                    <span style="float:right">
+                        Gebäude: 2 OG + 2 DG                    </span>
+                    <!-- -->
+                  </a>
+                </div>
+                <div id="collapseBuilding_488" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+                    <!-- tops -->
+                    <ul class="object-grid object-grid-tops clearfix">
+                                                                                <li class="top-thumb">
+                                <a href="javascript:void();"
+                                    class="img-polaroid" style="cursor:default"><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_6_stg_2_top_1_3d.jpg" alt="Top 1" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 6 / Stiege 2 / Top 1 (1.OG)</span>
+                                    <span class="top-details">
+                                        88,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    <span style="color:red;">Bereits Verkauft!</span>
+                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="javascript:void();"
+                                    class="img-polaroid" style="cursor:default"><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_6_stg_2_top_2_3d.jpg" alt="Top 2" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 6 / Stiege 2 / Top 2 (1.OG)</span>
+                                    <span class="top-details">
+                                        107,00 m²,
+                                        4 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    <span style="color:red;">Bereits Verkauft!</span>
+                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1189-sebastian-kohl-gasse-6-stiege-2-top-3"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_6_stg_2_top_3_3d.jpg" alt="Top 3" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 6 / Stiege 2 / Top 3 (1.OG)</span>
+                                    <span class="top-details">
+                                        107,00 m²,
+                                        4 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 279.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1190-sebastian-kohl-gasse-6-stiege-2-top-4"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_6_stg_2_top_4_3d.jpg" alt="Top 4" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 6 / Stiege 2 / Top 4 (1.OG)</span>
+                                    <span class="top-details">
+                                        90,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 239.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1208-sebastian-kohl-gasse-6-stiege-2-top-5"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_6_stg_2_top_5_3d.jpg" alt="Top 5" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 6 / Stiege 2 / Top 5 (2.OG)</span>
+                                    <span class="top-details">
+                                        88,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 229.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1209-sebastian-kohl-gasse-6-stiege-2-top-6"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_6_stg_2_top_6_3d.jpg" alt="Top 6" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 6 / Stiege 2 / Top 6 (2.OG)</span>
+                                    <span class="top-details">
+                                        107,00 m²,
+                                        4 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 269.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1211-sebastian-kohl-gasse-6-stiege-2-top-8"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_6_stg_2_top_8_3d.jpg" alt="Top 8" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 6 / Stiege 2 / Top 8 (2.OG)</span>
+                                    <span class="top-details">
+                                        90,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 229.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1231-sebastian-kohl-gasse-6-stiege-2-top-11"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_6_stg_2_top_11_3d.jpg" alt="Top 11" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 6 / Stiege 2 / Top 11 (1.DG)</span>
+                                    <span class="top-details">
+                                        93,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 249.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                            </ul>
+                    <!-- -->
+                  </div>
+                </div>
+              </div>
+
+            </div>
+                
+                        <div class="accordion accordion-buildings" id="accordion_building_489">
+
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_building_489" href="#collapseBuilding_489">
+                    <!-- building title -->
+                    <i class="icon-chevron-up"></i>
+                    Sebastian-Kohl-Gasse 8                    (13 Objekte)
+                    <span style="float:right">
+                        Gebäude: 4 OG + 2 DG                    </span>
+                    <!-- -->
+                  </a>
+                </div>
+                <div id="collapseBuilding_489" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+                    <!-- tops -->
+                    <ul class="object-grid object-grid-tops clearfix">
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1191-sebastian-kohl-gasse-8-top-2"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_8_top_2_3d.jpg" alt="Top 2" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 8 / Top 2 (1.OG)</span>
+                                    <span class="top-details">
+                                        89,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 219.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="javascript:void();"
+                                    class="img-polaroid" style="cursor:default"><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_8_top_5_3d.jpg" alt="Top 5" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 8 / Top 5 (1.OG)</span>
+                                    <span class="top-details">
+                                        106,00 m²,
+                                        4 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    <span style="color:red;">Bereits Verkauft!</span>
+                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="javascript:void();"
+                                    class="img-polaroid" style="cursor:default"><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_8_top_6_3d.jpg" alt="Top 6" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 8 / Top 6 (2.OG)</span>
+                                    <span class="top-details">
+                                        90,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    <span style="color:red;">Bereits Verkauft!</span>
+                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1214-sebastian-kohl-gasse-8-top-8"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_8_top_8_3d.jpg" alt="Top 8" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 8 / Top 8 (2.OG)</span>
+                                    <span class="top-details">
+                                        61,00 m²,
+                                        2 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 154.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="javascript:void();"
+                                    class="img-polaroid" style="cursor:default"><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_8_top_9_3d.jpg" alt="Top 9" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 8 / Top 9 (2.OG)</span>
+                                    <span class="top-details">
+                                        106,00 m²,
+                                        4 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    <span style="color:red;">Bereits Verkauft!</span>
+                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1233-sebastian-kohl-gasse-8-top-10"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_8_top_10_3d.jpg" alt="Top 10" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 8 / Top 10 (3.OG)</span>
+                                    <span class="top-details">
+                                        89,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 239.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1234-sebastian-kohl-gasse-8-top-11"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_8_top_11_3d.jpg" alt="Top 11" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 8 / Top 11 (3.OG)</span>
+                                    <span class="top-details">
+                                        55,00 m²,
+                                        2 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 159.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1235-sebastian-kohl-gasse-8-top-12"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_8_top_12_3d.jpg" alt="Top 12" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 8 / Top 12 (3.OG)</span>
+                                    <span class="top-details">
+                                        61,00 m²,
+                                        2 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 164.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1236-sebastian-kohl-gasse-8-top-13"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_8_top_13_3d_2.jpg" alt="Top 13" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 8 / Top 13 (3.OG)</span>
+                                    <span class="top-details">
+                                        106,00 m²,
+                                        4 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 264.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1252-sebastian-kohl-gasse-8-top-14"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_8_top_14_3d.jpg" alt="Top 14" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 8 / Top 14 (4.OG)</span>
+                                    <span class="top-details">
+                                        90,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 249.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1254-sebastian-kohl-gasse-8-top-16"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_8_top_16_3d.jpg" alt="Top 16" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 8 / Top 16 (4.OG)</span>
+                                    <span class="top-details">
+                                        61,00 m²,
+                                        2 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 174.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1255-sebastian-kohl-gasse-8-top-17"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_8_top_17_3d.jpg" alt="Top 17" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 8 / Top 17 (4.OG)</span>
+                                    <span class="top-details">
+                                        106,00 m²,
+                                        4 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 274.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1268-sebastian-kohl-gasse-8-top-18"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_8_dg_1_top_18_3d_dg1.jpg" alt="Top 18" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 8 / Top 18 (1.DG-2.DG)</span>
+                                    <span class="top-details">
+                                        108,00 m²,
+                                        4 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 336.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                            </ul>
+                    <!-- -->
+                  </div>
+                </div>
+              </div>
+
+            </div>
+                
+                        <div class="accordion accordion-buildings" id="accordion_building_490">
+
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_building_490" href="#collapseBuilding_490">
+                    <!-- building title -->
+                    <i class="icon-chevron-up"></i>
+                    Sebastian-Kohl-Gasse 10                    (18 Objekte)
+                    <span style="float:right">
+                        Gebäude: 4 OG + 2 DG                    </span>
+                    <!-- -->
+                  </a>
+                </div>
+                <div id="collapseBuilding_490" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+                    <!-- tops -->
+                    <ul class="object-grid object-grid-tops clearfix">
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1181-sebastian-kohl-gasse-10-top-1"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_10_top_1_3d.jpg" alt="Top 1" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 10 / Top 1 (EG)</span>
+                                    <span class="top-details">
+                                        89,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 204.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1195-sebastian-kohl-gasse-10-top-3"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_10_top_3_3d.jpg" alt="Top 3" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 10 / Top 3 (1.OG)</span>
+                                    <span class="top-details">
+                                        86,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 214.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1196-sebastian-kohl-gasse-10-top-4"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_10_top_4_3d.jpg" alt="Top 4" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 10 / Top 4 (1.OG)</span>
+                                    <span class="top-details">
+                                        57,00 m²,
+                                        2 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 149.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1197-sebastian-kohl-gasse-10-top-5"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_10_top_5_3d.jpg" alt="Top 5" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 10 / Top 5 (1.OG)</span>
+                                    <span class="top-details">
+                                        58,00 m²,
+                                        2 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 149.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1198-sebastian-kohl-gasse-10-top-6"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_10_top_6_3d.jpg" alt="Top 6" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 10 / Top 6 (1.OG)</span>
+                                    <span class="top-details">
+                                        90,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 219.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1216-sebastian-kohl-gasse-10-top-7"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_10_top_7_3d.jpg" alt="Top 7" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 10 / Top 7 (2.OG)</span>
+                                    <span class="top-details">
+                                        85,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 224.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1217-sebastian-kohl-gasse-10-top-8"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_8_top_8_3d_2.jpg" alt="Top 8" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 10 / Top 8 (2.OG)</span>
+                                    <span class="top-details">
+                                        57,00 m²,
+                                        2 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 159.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1218-sebastian-kohl-gasse-10-top-9"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_10_top_9_3d.jpg" alt="Top 9" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 10 / Top 9 (2.OG)</span>
+                                    <span class="top-details">
+                                        58,00 m²,
+                                        2 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 159.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1219-sebastian-kohl-gasse-10-top-10"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_10_top_10_3d.jpg" alt="Top 10" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 10 / Top 10 (2.OG)</span>
+                                    <span class="top-details">
+                                        90,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 229.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1237-sebastian-kohl-gasse-10-top-11"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_10_top_11_3d.jpg" alt="Top 11" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 10 / Top 11 (3.OG)</span>
+                                    <span class="top-details">
+                                        86,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 234.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1238-sebastian-kohl-gasse-10-top-12"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_10_top_12_3d.jpg" alt="Top 12" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 10 / Top 12 (3.OG)</span>
+                                    <span class="top-details">
+                                        57,00 m²,
+                                        2 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 169.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1240-sebastian-kohl-gasse-10-top-14"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_10_top_14_3d.jpg" alt="Top 14" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 10 / Top 14 (3.OG)</span>
+                                    <span class="top-details">
+                                        90,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 239.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1257-sebastian-kohl-gasse-10-top-16"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_10_top_16_3d.jpg" alt="Top 16" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 10 / Top 16 (4.OG)</span>
+                                    <span class="top-details">
+                                        57,00 m²,
+                                        2 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 179.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1258-sebastian-kohl-gasse-10-top-17"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_10_top_17_3d.jpg" alt="Top 17" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 10 / Top 17 (4.OG)</span>
+                                    <span class="top-details">
+                                        58,00 m²,
+                                        2 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 179.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1259-sebastian-kohl-gasse-10-top-18"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_12_top_18_3d.jpg" alt="Top 18" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 10 / Top 18 (4.OG)</span>
+                                    <span class="top-details">
+                                        90,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 249.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1271-sebastian-kohl-gasse-10-top-19"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_10_dg_1_top_19_3d_dg1.jpg" alt="Top 19" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 10 / Top 19 (1.DG-2.DG)</span>
+                                    <span class="top-details">
+                                        107,00 m²,
+                                        4 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 336.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1273-sebastian-kohl-gasse-10-top-21"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_10_dg_1_top_21_3d_dg1.jpg" alt="Top 21" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 10 / Top 21 (1.DG-2.DG)</span>
+                                    <span class="top-details">
+                                        75,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 242.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1274-sebastian-kohl-gasse-10-top-22"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_10_dg_1_top_22_3d_dg1_2.jpg" alt="Top 22" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 10 / Top 22 (1.DG-2.DG)</span>
+                                    <span class="top-details">
+                                        107,00 m²,
+                                        4 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 336.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                            </ul>
+                    <!-- -->
+                  </div>
+                </div>
+              </div>
+
+            </div>
+                
+                        <div class="accordion accordion-buildings" id="accordion_building_491">
+
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_building_491" href="#collapseBuilding_491">
+                    <!-- building title -->
+                    <i class="icon-chevron-up"></i>
+                    Sebastian-Kohl-Gasse 12                    (11 Objekte)
+                    <span style="float:right">
+                        Gebäude: 4 OG + 2 DG                    </span>
+                    <!-- -->
+                  </a>
+                </div>
+                <div id="collapseBuilding_491" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+                    <!-- tops -->
+                    <ul class="object-grid object-grid-tops clearfix">
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1183-sebastian-kohl-gasse-12-top-2"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_12_top_02_3d.jpg" alt="Top 2" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 12 / Top 2 (EG)</span>
+                                    <span class="top-details">
+                                        57,00 m²,
+                                        2 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 131.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1199-sebastian-kohl-gasse-12-top-3"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_12_top_3_3d.jpg" alt="Top 3" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 12 / Top 3 (1.OG)</span>
+                                    <span class="top-details">
+                                        84,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 194.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1200-sebastian-kohl-gasse-12-top-4"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_12_top_4_3d.jpg" alt="Top 4" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 12 / Top 4 (1.OG)</span>
+                                    <span class="top-details">
+                                        86,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 199.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1201-sebastian-kohl-gasse-12-top-5"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_12_top_5_3d.jpg" alt="Top 5" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 12 / Top 5 (1.OG)</span>
+                                    <span class="top-details">
+                                        104,00 m²,
+                                        4 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 239.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1220-sebastian-kohl-gasse-12-top-7"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_12_top_7_3d.jpg" alt="Top 7" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 12 / Top 7 (2.OG)</span>
+                                    <span class="top-details">
+                                        84,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 204.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1223-sebastian-kohl-gasse-12-top-10"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_12_top_10_3d.jpg" alt="Top 10" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 12 / Top 10 (2.OG)</span>
+                                    <span class="top-details">
+                                        60,00 m²,
+                                        2 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 149.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1242-sebastian-kohl-gasse-12-top-12"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_12_top_12_3d.jpg" alt="Top 12" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 12 / Top 12 (3.OG)</span>
+                                    <span class="top-details">
+                                        87,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 214.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1260-sebastian-kohl-gasse-12-top-15"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_12_top_15_3d.jpg" alt="Top 15" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 12 / Top 15 (4.OG)</span>
+                                    <span class="top-details">
+                                        84,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 220.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1261-sebastian-kohl-gasse-12-top-16"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_12_top_16_3d.jpg" alt="Top 16" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 12 / Top 16 (4.OG)</span>
+                                    <span class="top-details">
+                                        86,00 m²,
+                                        3 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 224.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1262-sebastian-kohl-gasse-12-top-17"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_12_top_17_3d.jpg" alt="Top 17" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 12 / Top 17 (4.OG)</span>
+                                    <span class="top-details">
+                                        104,00 m²,
+                                        4 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 264.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1263-sebastian-kohl-gasse-12-top-18"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/skg_12_top_18_3d_2.jpg" alt="Top 18" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Sebastian-Kohl-Gasse 12 / Top 18 (4.OG)</span>
+                                    <span class="top-details">
+                                        60,00 m²,
+                                        2 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 169.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                            </ul>
+                    <!-- -->
+                  </div>
+                </div>
+              </div>
+
+            </div>
+                
+                        <div class="accordion accordion-buildings" id="accordion_building_492">
+
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_building_492" href="#collapseBuilding_492">
+                    <!-- building title -->
+                    <i class="icon-chevron-up"></i>
+                    Siegfriedgasse 5                    (5 Objekte)
+                    <span style="float:right">
+                        Gebäude: 4 OG + 1 DG                    </span>
+                    <!-- -->
+                  </a>
+                </div>
+                <div id="collapseBuilding_492" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+                    <!-- tops -->
+                    <ul class="object-grid object-grid-tops clearfix">
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1204-siegfriedgasse-5-top-2"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/sg5_top_2_3d.jpg" alt="Top 2" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Siegfriedgasse 5 / Top 2 (1.OG)</span>
+                                    <span class="top-details">
+                                        106,00 m²,
+                                        4 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 238.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1224-siegfriedgasse-5-top-3"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/sg5_top_3_3d.jpg" alt="Top 3" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Siegfriedgasse 5 / Top 3 (2.OG)</span>
+                                    <span class="top-details">
+                                        109,00 m²,
+                                        4 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 244.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1225-siegfriedgasse-5-top-4"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/sg5_top_4_3d.jpg" alt="Top 4" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Siegfriedgasse 5 / Top 4 (2.OG)</span>
+                                    <span class="top-details">
+                                        108,00 m²,
+                                        4 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 244.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1246-siegfriedgasse-5-top-6"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/sg5_top_6_3d.jpg" alt="Top 6" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Siegfriedgasse 5 / Top 6 (3.OG)</span>
+                                    <span class="top-details">
+                                        109,00 m²,
+                                        4 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 254.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                                                                <li class="top-thumb">
+                                <a href="/projekte/21Leo2/1265-siegfriedgasse-5-top-8"
+                                    class="img-polaroid" ><img src="http://www.wvg.at/media/filter/thumbnail_large/img/sg5_top_8_3d.jpg" alt="Top 8" /></a>
+                                <p class="top-caption">
+                                    <span class="top-title">Siegfriedgasse 5 / Top 8 (4.OG)</span>
+                                    <span class="top-details">
+                                        108,00 m²,
+                                        4 Zimmer
+                                    </span>
+                                    <span class="top-price">
+                                                                                    € 264.900,00                                                                            </span>
+                                </p>
+                            </li>
+                                            </ul>
+                    <!-- -->
+                  </div>
+                </div>
+              </div>
+
+            </div>
+                        </div>
+</div>
+
+
+
+<script>
+$(document).ready(function() {
+
+    var rangeSizeSlider = $( "#slider-range-size" );
+    var rangeSizeRooms  = $( "#slider-range-rooms" );
+    var rangeSizeStorey = $( "#slider-range-storey" );
+    var rangeSizePrice  = $( "#slider-range-price" );
+    var minRooms        = $('input[name="data[Slider][minRooms]"]').val();
+    var maxRooms        = $('input[name="data[Slider][maxRooms]"]').val();
+    var minSize         = $('input[name="data[Slider][minSize]"]').val();
+    var maxSize         = $('input[name="data[Slider][maxSize]"]').val();
+    var minPrice        = $('input[name="data[Slider][minPrice]"]').val();
+    var maxPrice        = $('input[name="data[Slider][maxPrice]"]').val();
+    var minStoreyOld    = $('input[name="data[Slider][minStoreyOld]"]').val();
+    var maxStoreyOld    = $('input[name="data[Slider][maxStoreyOld]"]').val();
+
+    /*
+    console.log('maxRooms ' + maxRooms);
+    console.log('minRooms ' + minRooms);
+    console.log('minSize ' + minSize);
+    console.log('maxSize ' + maxSize);
+    console.log('minPrice ' + minPrice);
+    console.log('maxPrice ' + maxPrice);
+    console.log('minStoreyOld ' + minStoreyOld);
+    console.log('maxStoreyOld ' + maxStoreyOld);
+    */
+
+    rangeSizeRooms.slider({
+      range: "max",
+      range: true,
+      min: 2,           // min value
+      max: 5,         // max value
+      values: [minRooms, maxRooms], // default values
+      step : 1,
+      slide: function( event, ui ) {
+        // set new values on slide
+        $('.slider-range-min-value[data-slider="slider-range-rooms"]').text(ui.values[0]);
+        $('.slider-range-max-value[data-slider="slider-range-rooms"]').text(ui.values[1]);
+        $('input[name="data[Slider][minRooms]"]').val(ui.values[0]);
+        $('input[name="data[Slider][maxRooms]"]').val(ui.values[1]);
+      }
+    });
+
+    // set default values on init
+    $('.slider-range-min-value[data-slider="slider-range-rooms"]').text(rangeSizeRooms.slider('values', 0 ));
+    $('.slider-range-max-value[data-slider="slider-range-rooms"]').text(rangeSizeRooms.slider('values', 1 ));
+
+    rangeSizeSlider.slider({
+      range: "max",
+      range: true,
+      min: 55.00,           // min value
+      max: 122.00,         // max value
+      values: [minSize, maxSize], // default values
+      step : 1,
+      slide: function( event, ui ) {
+        // set new values on slide
+        $('.slider-range-min-value[data-slider="slider-range-size"]').text(ui.values[0] + ' m²');
+        $('.slider-range-max-value[data-slider="slider-range-size"]').text(ui.values[1] + ' m²');
+        $('input[name="data[Slider][minSize]"]').val(ui.values[0]);
+        $('input[name="data[Slider][maxSize]"]').val(ui.values[1]);
+      }
+    });
+
+    // set default values on init
+    $('.slider-range-min-value[data-slider="slider-range-size"]').text(rangeSizeSlider.slider('values', 0 ) + ' m²');
+    $('.slider-range-max-value[data-slider="slider-range-size"]').text(rangeSizeSlider.slider('values', 1 ) + ' m²');
+
+    // generate names for the values.. slider only accepts/slides numbers but we want strings to be displayed.
+    // so, we "simply" build a translation table then.
+    maxOG              = 4;
+    maxDG              = 2;
+    projectStoreys     = {};
+    projectStoreys[-1] = "KG";
+    projectStoreys[0]  = "EG";
+    for ($i = 1; $i <= maxOG+maxDG; $i++) {
+      if ($i <= maxOG)
+        projectStoreys[$i] = $i+'.OG';
+      else if ($i > maxOG)
+        projectStoreys[$i] = ($i-maxOG) +'.DG';
+    }
+    // handle empty maxStoreyOld (on init)
+    if (!maxStoreyOld)
+      maxStoreyOld = maxOG+maxDG;
+
+    rangeSizeStorey.slider({
+      range: "max",
+      range: true,
+      min: -1,
+      max: maxOG + maxDG,         // max value
+      values: [minStoreyOld, maxStoreyOld], // position of slider at init, or "default values", in our case, index of projectStoreys object.
+      step : 1,
+      slide: function( event, ui ) {
+        // set new values on slide
+        $('.slider-range-min-value[data-slider="slider-range-storey"]').text( projectStoreys[ui.values[0]] );
+        $('.slider-range-max-value[data-slider="slider-range-storey"]').text( projectStoreys[ui.values[1]] );
+        $('input[name="data[Slider][minStoreyOld]"]').val(ui.values[0]);
+        $('input[name="data[Slider][maxStoreyOld]"]').val(ui.values[1]);
+        if (ui.values[0] <= maxOG) {
+          $('input[name="data[Slider][minStorey]"]').val(ui.values[0]);
+          $('input[name="data[Slider][minStoreyType]"]').val("storey");
+        }
+        else {
+          $('input[name="data[Slider][minStorey]"]').val(ui.values[0] - maxOG);
+          $('input[name="data[Slider][minStoreyType]"]').val("attic"); 
+        }
+        if (ui.values[1] <= maxOG) {
+          $('input[name="data[Slider][maxStorey]"]').val(ui.values[1]);
+          $('input[name="data[Slider][maxStoreyType]"]').val("storey");
+        }
+        else {
+          $('input[name="data[Slider][maxStorey]"]').val(ui.values[1] - maxOG);
+          $('input[name="data[Slider][maxStoreyType]"]').val("attic"); 
+        }
+      }
+    });
+    // set default values on init
+    $('.slider-range-min-value[data-slider="slider-range-storey"]').text( projectStoreys[$("#slider-range-storey").slider('values', 0)]);
+    $('.slider-range-max-value[data-slider="slider-range-storey"]').text( projectStoreys[$("#slider-range-storey").slider('values', 1)] );
+    $('input[name="data[Slider][minStoreyType]"]').val('storey');
+    $('input[name="data[Slider][maxStoreyType]"]').val('attic');
+    $('input[name="data[Slider][maxStorey]"]').val($("#slider-range-storey").slider('values', 1));
+    $('input[name="data[Slider][minStorey]"]').val($("#slider-range-storey").slider('values', 0));
+     
+
+    rangeSizePrice.slider({
+      range: "max",
+      range: true,
+      min: 131900.00,           // min value
+      max: 349900.00,         // max value
+      values: [minPrice, maxPrice], // default values
+      step : 1,
+      slide: function( event, ui ) {
+        // set new values on slide
+        $('.slider-range-min-value[data-slider="slider-range-price"]').text( '€ ' + format("#.###,00", ui.values[0]) );
+        $('.slider-range-max-value[data-slider="slider-range-price"]').text( '€ ' + format("#.###,00", ui.values[1]) );
+        $('input[name="data[Slider][minPrice]"]').val(ui.values[0]);
+        $('input[name="data[Slider][maxPrice]"]').val(ui.values[1]);
+      }
+    });
+
+
+    // set default values on init
+    $('.slider-range-min-value[data-slider="slider-range-price"]').text( '€ ' + format( "#.###,00", rangeSizePrice.slider('values', 0)) );
+    $('.slider-range-max-value[data-slider="slider-range-price"]').text( '€ ' + format( "#.###,00", rangeSizePrice.slider('values', 1)) );
+
+
+
+    // handle call
+    rangeSizeSlider.on( "slidestop", function( event, ui ) { do_filter_tops() } );
+    rangeSizeRooms.on( "slidestop", function( event, ui ) { do_filter_tops() } );
+    rangeSizeStorey.on("slidestop", function( event, ui ) { do_filter_tops() } );
+    rangeSizePrice.on( "slidestop", function( event, ui ) { do_filter_tops() } );
+
+    // handle tops filter
+    function do_filter_tops() {
+        // disable sliders
+        rangeSizeSlider.slider('disable');
+        rangeSizeRooms.slider('disable');
+        rangeSizeStorey.slider('disable');
+        rangeSizePrice.slider('disable');
+
+        // post data
+        $.post($('#filterTopsForm').prop('action'), $('#filterTopsForm').serialize(), function(response) {
+            // reanable sliders
+            rangeSizeSlider.slider('enable');
+            rangeSizeRooms.slider('enable');
+            rangeSizeStorey.slider('enable');
+            rangeSizePrice.slider('enable');
+
+            // update list only if there are tops
+            // if (response != 69)
+            $('.project-tops').html(response);
+
+
+                $('.object-grid-tops li:nth-child(3n)').addClass('last');
+
+
+        });
+    }
+
+    // get size of an object
+    Object.size = function () {
+      var len = this.length ? --this.length : -1;
+        for (var k in this)
+          len++;
+      return len;
+    }
+
+
+
+    // set default value
+    /*
+    $('.slider-range-min-value[data-slider="slider-range-rooms"]').text(rangeSizeRooms.slider('values', 0 ));
+    $('.slider-range-max-value[data-slider="slider-range-rooms"]').text(rangeSizeRooms.slider('values', 1 ));
+    $('input[name="data[Top][min_rooms_value]"]').val(rangeSizeRooms.slider('values', 0 ));
+    $('input[name="data[Top][max_rooms_value]"]').val(rangeSizeRooms.slider('values', 1 ));
+    */
+
+    /*
+   // init slider
+    rangeSizeSlider = $( "#slider-range-size" );
+    rangeSizeRooms  = $( "#slider-range-rooms" );
+    rangeSizePrice  = $( "#slider-range-price" );
+
+    defaultValues = {
+        size:  {
+            min: 55,
+            max: 122,
+        },
+        rooms: {
+            min: 2,
+            max: 5,
+        },
+        price: {
+            min: 131900,
+            max: 349900,
+        }
+    };
+
+    rangeSizeSlider.slider({
+      range: "max",
+      range: true,
+      min: 55,           // min value
+      step : 5,
+      slide: function( event, ui ) {
+      max: 122,         // max value
+      values: [defaultValues.size.min, defaultValues.size.max], // default values
+        $('.slider-range-min-value[data-slider="slider-range-size"]').text(ui.values[0] + ' m²');
+        $('.slider-range-max-value[data-slider="slider-range-size"]').text(ui.values[1] + ' m²');
+        $('input[name="data[Top][min_size_value]"]').val(ui.values[0]);
+        $('input[name="data[Top][max_size_value]"]').val(ui.values[1]);
+      }
+    });
+
+    // set default value
+    $('.slider-range-min-value[data-slider="slider-range-size"]').text(rangeSizeSlider.slider('values', 0 ) + ' m²');
+    $('.slider-range-max-value[data-slider="slider-range-size"]').text(rangeSizeSlider.slider('values', 1 ) + ' m²');
+    $('input[name="data[Top][min_size_value]"]').val(rangeSizeSlider.slider('values', 0 ));
+    $('input[name="data[Top][max_size_value]"]').val(rangeSizeSlider.slider('values', 1 ));
+
+    rangeSizeRooms.slider({
+      range: "max",
+      range: true,
+      min: 2,           // min value
+      max: 5,         // max value
+      values: [defaultValues.rooms.min, defaultValues.rooms.max], // default values
+      step : 1,
+      slide: function( event, ui ) {
+        $('.slider-range-min-value[data-slider="slider-range-rooms"]').text(ui.values[0]);
+        $('.slider-range-max-value[data-slider="slider-range-rooms"]').text(ui.values[1]);
+        $('input[name="data[Top][min_rooms_value]"]').val(ui.values[0]);
+        $('input[name="data[Top][max_rooms_value]"]').val(ui.values[1]);
+      }
+    });
+
+    // set default value
+    $('.slider-range-min-value[data-slider="slider-range-rooms"]').text(rangeSizeRooms.slider('values', 0 ));
+    $('.slider-range-max-value[data-slider="slider-range-rooms"]').text(rangeSizeRooms.slider('values', 1 ));
+    $('input[name="data[Top][min_rooms_value]"]').val(rangeSizeRooms.slider('values', 0 ));
+    $('input[name="data[Top][max_rooms_value]"]').val(rangeSizeRooms.slider('values', 1 ));
+
+    rangeSizePrice.slider({
+      range: "max",
+      range: true,
+      min: 131900,           // min value
+      max: 349900,         // max value
+      values: [defaultValues.price.min, defaultValues.price.max], // default values
+      step : 10000,
+      slide: function( event, ui ) {
+        $('.slider-range-min-value[data-slider="slider-range-price"]').text('€ ' + ui.values[0]);
+        $('.slider-range-max-value[data-slider="slider-range-price"]').text('€ ' + ui.values[1]);
+        $('input[name="data[Top][min_price_value]"]').val(ui.values[0]);
+        $('input[name="data[Top][max_price_value]"]').val(ui.values[1]);
+      }
+    });
+
+    // set default value
+    $('.slider-range-min-value[data-slider="slider-range-price"]').text('€ ' + rangeSizePrice.slider('values', 0 ));
+    $('.slider-range-max-value[data-slider="slider-range-price"]').text('€ ' + rangeSizePrice.slider('values', 1 ));
+    $('input[name="data[Top][min_price_value]"]').val(rangeSizePrice.slider('values', 0 ));
+    $('input[name="data[Top][max_price_value]"]').val(rangeSizePrice.slider('values', 1 ));
+
+
+    rangeSizeSlider.on( "slidestop", function( event, ui ) { do_filter_tops() } );
+    rangeSizeRooms.on( "slidestop", function( event, ui ) { do_filter_tops() } );
+    rangeSizePrice.on( "slidestop", function( event, ui ) { do_filter_tops() } );
+
+    // handle tops filter
+    function do_filter_tops() {
+        // disable sliders
+        rangeSizeSlider.slider('disable');
+        rangeSizeRooms.slider('disable');
+        rangeSizePrice.slider('disable');
+
+        // post data
+        $.post($('#filterTopsForm').prop('action'), $('#filterTopsForm').serialize(), function(response) {
+            // reanable sliders
+            rangeSizeSlider.slider('enable');
+            rangeSizeRooms.slider('enable');
+            rangeSizePrice.slider('enable');
+
+            // update list only if there are tops
+            if (response != 69)
+            $('.project-tops').html(response);
+
+
+        });
+    }
+    */
+});
+</script>
+</div>
+
+<script src="http://www.wvg.at/frontend/js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+var map;
+function initialize() {
+    geocoder = new google.maps.Geocoder();
+    var myOptions = {
+        zoom: 16,
+        center: new google.maps.LatLng(-34.397, 150.644),
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
+
+
+
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+function codeAddress() {
+				var address = 'Sebastian-Kohl-Gasse 14, Wien';
+		var tooltip = 'Sebastian-Kohl-Gasse 6-12';
+		
+    geocoder.geocode( { 'address': address}, function(results, status) {
+        if (status == google.maps.GeocoderStatus.OK) {
+            map.setCenter(results[0].geometry.location);
+
+            var image = new google.maps.MarkerImage('http://www.wvg.at/frontend/img/map_icon.png',
+                  // This marker is 20 pixels wide by 32 pixels tall.
+                  new google.maps.Size(124, 124),
+                  // The origin for this image is 0,0.
+                  new google.maps.Point(0,0),
+                  // The anchor for this image is the base of the flagpole at 0,32.
+                  new google.maps.Point(62, 124));
+
+
+            var marker = new google.maps.Marker({
+                    map: map,
+                    position: results[0].geometry.location,
+                    title: tooltip,
+                    icon: image
+            });
+
+            var infowindow = new google.maps.InfoWindow({
+                content: tooltip
+            });
+            //google.maps.event.addListener(marker, 'click', function() { infowindow.open(map,marker); });
+             map.setCenter(results[0].geometry.location);
+        } else {
+            /*alert("Geocode war nicht erfolgreich! Grund: " + status);*/
+             alert('Keine Adresse oder Top angegeben. Bitte überprüfen Sie ihre eingaben.');
+        }
+    });
+}
+</script>
+<script>
+$(document).ready(function() {
+
+    // set last item
+    $('.object-grid li:nth-child(3n)').addClass('last');
+
+    // load quickrequests form
+    $('#project-quickrequest').load('/quickrequests/add/39', function() {
+        //laoded
+    });
+
+    // load tellafriend form
+    $('#project-tellafriend').load('/tellafriends/send', function() {
+        //laoded
+    })
+
+    // init fancybox
+    $('.fancybox').fancybox();
+
+    // use hash in url
+     var gotoHashTab = function (customHash) {
+            var hash = customHash || location.hash;
+            var hashPieces = hash.split('?'),
+                activeTab = $('[href=' + hashPieces[0] + ']');
+            activeTab && activeTab.tab('show');
+        }
+
+    // onready go to the tab requested in the page hash
+    gotoHashTab();
+
+    // show tell a friend form
+    $('.show-tellafriend').on('click', function() {
+        $('#tellafriendForm').show();
+        return false;
+    })
+
+    // when the nav item is selected update the page hash
+    $('.nav a').on('shown', function (e) {
+        window.location.hash = e.target.hash;
+    })
+
+    // when a link within a tab is clicked, go to the tab requested
+    $('.tab-pane a').click(function (event) {
+        if (event.target.hash) {
+            gotoHashTab(event.target.hash);
+        }
+    });
+
+    // toggle icons in accordion
+    $('.accordion').on('shown', function(e) {
+
+        $(e.target).parent().parent().find('i').toggleClass('icon-chevron-up').toggleClass('icon-chevron-down');
+    });
+
+    $('.accordion').on('hidden', function(e) {
+        $(e.target).parent().parent().find('i').toggleClass('icon-chevron-up').toggleClass('icon-chevron-down');
+    });
+
+
+    // switch tabs
+    $('a[data-toggle="tab"]').on('shown', function (e) {
+        // update gogole maps
+        if ($(e.target).attr('href') == '#project-location') {
+            setTimeout(function() {
+                codeAddress();
+                google.maps.event.trigger(map, 'resize');
+            }, 400)
+        }
+
+         if ($(e.target).attr('href') == '#project-quickrequest') {
+                $('.aside-menu li.current, .aside-menu li.active').removeClass('current active');
+            }
+    });
+
+    // download pdf
+    $('#project-plans ul li a').attr('target', '_blank');
+
+        setTimeout(function() {
+        $('.spotlight').backstretch('http://www.wvg.at/media/transfer/img/aussenansicht_21leo26_ohne_text_3.jpg');
+    }, 100)
+    });
+</script>
+
+</div>
+
+                <div class="footer clearfix">
+                    <ul class="links">
+                        <li><a href="http://www.wvg.at">› Home</a></li>
+                        <li><a href="/projekte">› Wohnungen</a></li>
+                        <li><a href="/referenzen">› Referenzen</a></li>
+                        <li><a href="/news">› News</a></li>
+                    </ul>
+
+                    <ul class="links">
+                        <li><a href="/unternehmen/unser_konzept">› Unser Konzept</a></li>
+                        <li><a href="/unternehmen/das_team">› Das Team</a></li>
+                        <li><a href="/liegenschaftsankauf">› Liegenanschaftsankauf</a></li>
+                        <li><a href="/jobs">› Jobs</a></li>
+                    </ul>
+
+                    <ul class="links">
+                        <li><a href="/kontakt">› Kontakt</a></li>
+
+                        <li><a href="/impressum">› Impressum</a></li>
+                    </ul>
+
+                    <ul class="links">
+                        <li><strong>wvg Bauträger Ges.m.b.H.</strong></li>
+                        <li>Barichgasse 40-42, 1030 Wien</li>
+                        <li>Tel.: (01) 972 73</li>
+                        <li>Fax:  (01) 972 73 - 15</li>
+                        <li>e-Mail: <a href="mailto:office@wvg.at">office@wvg.at</a></li>
+                    </ul>
+
+                    <ul class="links last">
+                        <li><strong>Geschäftsöffnungszeiten:</strong></li>
+                        <li>Mo-Do: 08:00 - 17:00 Uhr</li>
+                        <li>Fr: 08:00 - 14:00 Uhr</li>
+                    </ul>
+
+                </div><!-- .footer -->
+            </div>
+
+        </div>
+
+    </div><!-- .hive -->
+
+
+    <!-- JAVASCRIPT -->
+
+
+    <script src="http://www.wvg.at/frontend/js/plugins.js"></script>
+    <script src="http://www.wvg.at/frontend/js/bootstrap.min.js"></script>
+    <script src="http://www.wvg.at/frontend/js/main.js?v2"></script>
+        <script>
+        var _gaq=[['_setAccount','UA-2545863-1'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+
+
+    </script>
+</body>
+</html>

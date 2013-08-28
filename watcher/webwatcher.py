@@ -4,7 +4,7 @@
     Watches web sites for changes.
 """
 
-# (C)opyrights 2009 by Albert Weichselbraun <albert@weichselbraun.net>
+# (C)opyrights 2009-2013 by Albert Weichselbraun <albert@weichselbraun.net>
 # 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -24,8 +24,8 @@ __version__ = "$Header$"
 from hashlib import sha1
 from commands import getoutput
 from cPickle import load, dump
-from difflib import Differ
 import os.path, os
+from notifyTools.diff import TextDiff
 
 import sys
 from os.path import expanduser
@@ -59,15 +59,11 @@ class WebWatcher:
         if url in self.changes:
             return
 
-        d = Differ()
-        old = self._loadWebsite( url )
         new = self._getPageWebsite( url )
         self._saveWebsite( url, new )
 
-        newLines = [ t[2:] for t in d.compare(old, new) if t.startswith("+ ")  ]
-        oldLines = [ t[2:] for t in d.compare(old, new) if t.startswith("  ")  ]
-
-        self.changes[url] = ("\n".join(newLines), float(len(newLines) ) / ( len(newLines) + len(oldLines) ) )
+        diff = TextDiff(self._loadWebsite(url), new)
+        return diff.get_change_text(), diff.get_change_percentage()
 
 
     def getChange( self, url ):
@@ -111,10 +107,7 @@ class WebWatcher:
             @returns a set of hashs describing the url
         """
         fname = self.getStorageFname( url )
-        if os.path.exists(fname):
-            return load( open(fname) )
-        else:
-            return list()
+        return load(open(fname)) if os.path.exists(fname) else list()
     
     @staticmethod
     def _getPageWebsite( url ):
