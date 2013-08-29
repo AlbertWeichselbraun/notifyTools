@@ -31,7 +31,7 @@ RE_WHITESPACE = compile("\s{2,}")
 
 clean = lambda txt: RE_WHITESPACE.sub(" ", txt.encode("utf8")).strip()
 
-class LinuxWatcher(object):
+class WVG(object):
     """ linux watcher main class """
 
     def __init__(self, backlog=3):

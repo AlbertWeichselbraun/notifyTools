@@ -25,15 +25,14 @@ from datetime import datetime
 class Mail(object):
     """ an RSS output object """
 
-    SENDER = 'notify@semanticlab.net'
-    MAILHOST = 'mail.semanticlab.net'
-
-    def __init__(self, recipients, subject):
+    def __init__(self, sender, recipients, subject, mailhost):
         """ @param[in] feed title
             @param[in] feed description
         """
+        self.sender = sender
         self.recipients = recipients
         self.subject = subject
+        self.mailhost = mailhost
         self.notifications = []
 
 
@@ -68,11 +67,11 @@ Link: %(link)s
         if not self.notifications:
             return
 
-        message = Message(From=self.SENDER,
+        message = Message(From=self.sender,
                           To=self.recipients,
                           Subject=self.subject)
         message.Body = '\n\n'.join( map(self._formatNotification, 
                                         self.notifications) )
-        Mailer(self.MAILHOST).send(message)
+        Mailer(self.mailhost).send(message)
         self.notifiers = []
 
