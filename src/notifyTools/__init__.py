@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# (C)opyrights 2009 by Albert Weichselbraun <albert@weichselbraun.net>
+# (C)opyrights 2009-2013 by Albert Weichselbraun <albert@weichselbraun.net>
 # 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -38,7 +38,7 @@ class Watcher(object):
     def watch(self):
         """ calls all watchers and sends notifications using the output plugins """
         for watcher in self.watcherList:
-            watcher.getNotifications( self.outputList )
+            watcher.notify( self.outputList )
 
         for output in self.outputList:
             output.notify()

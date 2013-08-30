@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 
-""" @package watcher.wvg
+''' 
+    @package notifyTools.watcher.wvg
     checks whether new linux kernel versions are available
-"""
+'''
 
 # (C)opyrights 2013 by Albert Weichselbraun <albert@weichselbraun.net>
 # 
@@ -27,68 +28,35 @@ from operator import itemgetter
 from pyquery import PyQuery 
 from lxml import etree
 
+from notifyTools.watcher import Watcher
+
 RE_WHITESPACE = compile("\s{2,}")
 
 clean = lambda txt: RE_WHITESPACE.sub(" ", txt.encode("utf8")).strip()
 
-class WVG(object):
-    """ linux watcher main class """
-
-    def __init__(self, backlog=3):
-        """ @param[in] backlog to keep """
-        self.backlog = backlog
-
-    def getNotifications( self, notifierList ):
-        """ checks all sites and generates a notifcation based on the 
-            changes observed """
-
-        assert isinstance(notifierList, tuple) or isinstance(notifierList, list)
-
-        kernel_listing    = self._get_kernel_listing()
-        relevant_versions = self._parse_kernel_versions( kernel_listing ).values()
-
-        relevant_versions = sorted([ (int(major.split(".")[2]), major, date) for minor, major, date in relevant_versions ], reverse=True)
-        for notifier in notifierList:
-            for major, kernel_version, date in relevant_versions[:self.backlog]:
-                notifier.addNotification( 
-                    title = kernel_version,
-                    link = "%s/ChangeLog-%s" % (KERNEL_DIR, kernel_version),
-                    description = """The latest stable version of the Linux kernel is: 
-                                     <a href="%slinux-%s.tar.bz2">%s</a>,
-                                     <a href="%sChangeLog-%s">ChangeLog</a>""" % (KERNEL_DIR, kernel_version, kernel_version, KERNEL_DIR, kernel_version), 
-                    date  = datetime.datetime.strptime(date, "%d-%b-%Y %H:%M"),
-                  )
-    
+class WVG(Watcher):
+    ''' linux watcher main class '''
+   
     @staticmethod
-    def _get_kernel_listing():
-        f=urllib.urlopen( KERNEL_DIR )
-        return f.read()
-    
-    @staticmethod
-    def _parse_kernel_versions(kernel_listing):
-        vers={}
-        for line in kernel_listing.split("\n"):
-            m = RE_VER.search(line) 
-            if not m: continue
-    
-            major, minor, date = m.groups()
-            if not minor:
-                minor = ".0"
-    
-            minor = int( minor[1:] )
-            if vers.get(major, (0,0,0))[0] < minor:
-                vers[major] = (minor, major+"."+str(minor), date)
-    
-        return vers
-    
+    def getTextContent(input_content):
+        '''
+        ::param input_text: 
+        ::returns: the text representation used for the diff of the
+                   given content
+        '''
+        page = PyQuery(input_content)
+        content = []
+        for top_info in map(PyQuery, page('.top-caption')):
+            top_title   = clean(top_info('.top-title').text())
+            top_details = clean(top_info('.top-details').text())
+            top_price   = clean(top_info('.top-price').text())
+
+            content.append("# %s\n- %s\n- %s\n" % (top_title, 
+                                                   top_details, 
+                                                   top_price))
+        return '\n'.join(content)
+
 
 if __name__ == '__main__':
-    html = open('tests/21Leo2').read()
-    page = PyQuery(html)
-    for top_info in map(PyQuery, page('.top-caption')):
-        top_title   = clean(top_info('.top-title').text())
-        top_details = clean(top_info('.top-details').text())
-        top_price   = clean(top_info('.top-price').text())
-
-        print "# %s\n- %s\n- %s\n" % (top_title, top_details, top_price)
-
+    pass
+    # html = open('tests/21Leo2').read()

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-""" @package notifytools.notifiers.smtp """
+''' @package notifytools.notifiers.smtp '''
 
 # (C)opyrights 2013 by Albert Weichselbraun <albert@weichselbraun.net>
 # 
@@ -17,18 +17,18 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-__version__ = "$Header$"
-
 from mailer import Mailer, Message
 from datetime import datetime
 
-class Mail(object):
-    """ an RSS output object """
+from notifyTools.notifiers import Notifier
+
+class Mail(Notifier):
+    ''' an RSS output object '''
 
     def __init__(self, sender, recipients, subject, mailhost):
-        """ @param[in] feed title
+        ''' @param[in] feed title
             @param[in] feed description
-        """
+        '''
         self.sender = sender
         self.recipients = recipients
         self.subject = subject
@@ -36,34 +36,21 @@ class Mail(object):
         self.notifications = []
 
 
-    def addNotification(self, title, link, description, date=datetime.now()):
-        """ @param[in] title The entry's title
-            @param[in] link  A link to the entry
-            @param[in] description
-            @param[in] date
-        """
-        self.notifications.append(
-            {'title': title, 
-             'link' : link,
-             'description': description,
-             'date': date,
-            }
-          )
 
-    def _formatNotification(self, notification):
+    def formatNotification(self, notification):
         ''' ::param notifications: provides a text representation of the
                                    given notficiation
         '''
         return '''* %(title)s (%(date)s) *
 
 Link: %(link)s
-%(date)s''' % ( notification)
+%(date)s''' % (notification)
 
     def notify(self):
-        """ publishs the rss feed at the given url
+        ''' publishs the rss feed at the given url
             @param[in] fname
             @param[in] url
-        """
+        '''
         if not self.notifications:
             return
 

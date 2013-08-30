@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-""" @package watcher.linux 
+""" @package notifyTools.watcher.linux 
     checks whether new linux kernel versions are available
 """
 
@@ -25,19 +25,21 @@ from re import compile
 import datetime
 from operator import itemgetter
 
+from notifyTools.watcher import Watcher
+
 KERNEL_DIR    = "http://ftp.kernel.org/pub/linux/kernel/v2.6/"
 RE_VER        = compile("ChangeLog-(2\.6\.\d+)(\.\d+)?.+(\d{2}-\w{3}-\d{4}\s\d{2}:\d{2})")
 RSS_FILE_PATH = "/var/lib/mediawiki/linux.rss"
 RSS_FILE_URL  = "http://www.semanticlab.net/linux.rss"
 
-class LinuxWatcher(object):
+class LinuxWatcher(Watcher):
     """ linux watcher main class """
 
     def __init__(self, backlog=3):
         """ @param[in] backlog to keep """
         self.backlog = backlog
 
-    def getNotifications( self, notifierList ):
+    def notify(self, notifierList):
         """ checks all sites and generates a notifcation based on the 
             changes observed """
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
-""" @package watcher.webwatcher 
+''' @package notifyTools.watcher.webwatcher 
     Watches web sites for changes.
-"""
+'''
 
 # (C)opyrights 2009-2013 by Albert Weichselbraun <albert@weichselbraun.net>
 # 
@@ -25,7 +25,9 @@ from hashlib import sha1
 from commands import getoutput
 from cPickle import load, dump
 import os.path, os
+
 from notifyTools.diff import TextDiff
+from notifyTools.watcher import Watcher
 
 import sys
 from os.path import expanduser
@@ -34,16 +36,16 @@ from siteconfig import WEBWATCHER_SITES
 
 LYNX="/usr/bin/lynx -force_html -nocolor -dump -nolist -nobold -pseudo_inlines=0 -display_charset=utf8 %s"
 
-class WebWatcher:
+class WebWatcher(Watcher):
 
     def __init__(self, storagePath):
         self.storagePath = storagePath
         self.changes = {}  # a dictionary containing the url, changed text and change percentage
 
 
-    def getNotifications( self, notifierList ):
-        """ checks all sites and generates a notifcation based on the 
-            changes observed """
+    def notify( self, notifierList ):
+        ''' checks all sites and generates a notifcation based on the 
+            changes observed '''
 
         assert isinstance(notifierList, tuple) or isinstance(notifierList, list)
         for url, minChangePercentage in WEBWATCHER_SITES.items():
@@ -55,7 +57,7 @@ class WebWatcher:
 
 
     def _computeChange(self, url):
-        """ computes the changes for the given url """
+        ''' computes the changes for the given url '''
         if url in self.changes:
             return
 
@@ -67,60 +69,60 @@ class WebWatcher:
 
 
     def getChange( self, url ):
-        """ returns the percentage to which this url has changed
+        ''' returns the percentage to which this url has changed
             @param[in] url
             @returns change (in %)
-        """
+        '''
         self._computeChange( url ) 
         return self.changes[url][1]
 
     
     def getChangeText( self, url ):
-        """ returns the new text added to the web site 
+        ''' returns the new text added to the web site 
             @param[in] url
             @returns the changed text 
-        """
+        '''
         self._computeChange( url )
         return self.changes[url][0]
         
 
     def getStorageFname( self, url ):
-        """ returns the storage location for the given url 
+        ''' returns the storage location for the given url 
             @param[in] url
             @returns fname 
-        """
+        '''
         return os.path.join(self.storagePath, ( sha1(url).hexdigest() ) )
 
     def _saveWebsite( self, url, website ):
-        """ saves the saved Website for the given url 
+        ''' saves the saved Website for the given url 
             @param[in] url
             @param[in] Website
-        """
+        '''
         fname = self.getStorageFname( url )
         if not os.path.exists( os.path.dirname(fname) ):
             os.makedirs( os.path.dirname(fname) )
         dump( website, open(fname, "w") )
  
     def _loadWebsite( self, url ):
-        """ returns the saved Website for the given url 
+        ''' returns the saved Website for the given url 
             @param[in] url
             @returns a set of hashs describing the url
-        """
+        '''
         fname = self.getStorageFname( url )
         return load(open(fname)) if os.path.exists(fname) else list()
     
     @staticmethod
     def _getPageWebsite( url ):
-        """ returns the Website for the given page 
+        ''' returns the Website for the given page 
             @param[in] url
             @returns a set of hashs describing one line of the page each 
-        """
+        '''
         assert "http" in url or "https" in url
         return [ line for line in getoutput(LYNX % url).split("\n") ]
 
 
 class TestWebWatcher(object):
-    """ tests the Webwatcher object """
+    ''' tests the Webwatcher object '''
 
     def testGetPageWebsite(self):
         wS = WebWatcher._getPageWebsite( "http://www.heise.de" )
