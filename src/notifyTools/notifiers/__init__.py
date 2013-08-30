@@ -17,9 +17,14 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-class Notifier(object):
+from datetime import datetime
 
-     def addNotification(self, title, link, description, date=datetime.now()):
+class Notifier(object):
+    
+    def __init__(self):
+        self.notifications = []
+
+    def addNotification(self, title, link, description, date=datetime.now()):
         ''' @param[in] title The entry's title
             @param[in] link  A link to the entry
             @param[in] description
@@ -43,16 +48,15 @@ class Notifier(object):
         raise NotImplemented
 
 
-class EchoNotifier(self):
+class EchoNotifier(Notifier):
     
     def notify(self):
-        text = '\n\n'.join( map(self.formatNotification, self.notifications) )
+        print '\n\n'.join( map(self.formatNotification, self.notifications) )
         self.notifications = []
-        return text
 
     def formatNotification(self, notification):
         return '''* %(title)s (%(date)s) *
 
 Link: %(link)s
-%(date)s''' % (notification)
+%(description)s''' % (notification)
 

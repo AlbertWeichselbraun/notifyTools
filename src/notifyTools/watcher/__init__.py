@@ -21,14 +21,17 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import sys
-from os.path import expanduser, join, dirname
+import urllib
+from os.path import expanduser, join, dirname, expanduser, exists
 from os import makedirs
 from hashlib import sha1
-from json import load, dump
+from cPickle import load, dump
+from datetime import datetime
 
-sys.path.append( expanduser('~/.notifyTools') )
 from notifyTools.diff import TextDiff
-from siteconfig import WATCHER_STORAGE_PATH
+
+WATCHER_STORAGE_PATH = expanduser("~/.notifyTools/watcher")
+
 
 class Watcher(object):
     ''' the watcher interface '''
@@ -48,12 +51,17 @@ class Watcher(object):
 
         assert isinstance(notifierList, tuple) or isinstance(notifierList, list)
 
+        diff_text, diff_percentage = self.getDiff(self.url)
+
+        if diff_percentage == 0:
+            return
+
         for notifier in notifierList:
                 notifier.addNotification( 
                     title = self.title,
                     link = self.link,
-                    description = getDiff(self.url)[0]
-                    date  = datetime.datetime.strptime(date, "%d-%b-%Y %H:%M"),
+                    description = diff_text,
+                    date  = datetime.now()
                   )
  
     def getDiff(self, url):
@@ -66,19 +74,19 @@ class Watcher(object):
             ::returns: the difference between the locally stored (old)
                        and current (new) version of the given url.
         '''
-        old_content = self.getDiskContent(url)
-        new_content = self.getUrl(url)
-        self.saveDiskContent(new_content)
+        old_content = self.loadDiskContent(url)
+        new_content = self.getTextContent(self.getUrl(url))
+        self.saveDiskContent(url, new_content)
 
-        d = TextDiff(self.getTextContent(old_content),
-                     self.getTextContent(new_content))
+        d = TextDiff(old_content,
+                     new_content)
         return d.get_change_text(), d.get_change_percentage()
 
     @staticmethod
     def getUrl(url):
         ''' ::returns: the content for the given url 
         '''
-        f=urllib.urlopen(self.url)
+        f=urllib.urlopen(url)
         return f.read()
 
     @classmethod
@@ -90,15 +98,15 @@ class Watcher(object):
             return load(f) 
 
     @classmethod
-    def saveDiskContent(cls, obj):
+    def saveDiskContent(cls, url, obj):
         fname = cls.getStorageFname(url)
-        with open(fname) as f:
+        with open(fname, 'w') as f:
             return dump(obj, f) 
 
-    @staticMethod
+    @staticmethod
     def getStorageFname(url):
         fname = join(WATCHER_STORAGE_PATH, ( sha1(url).hexdigest() ))
-        if not os.path.exists( dirname(fname) ):
+        if not exists( dirname(fname) ):
             makedirs( dirname(fname) )
         return fname
 

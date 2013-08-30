@@ -27,9 +27,12 @@ class TextDiff(object):
 
     def __init__(self, source, dest):
         d = Differ()
+        old = source.split("\n")
+        new = dest.split("\n")
+
         self.new_lines = [ t[2:] for t in d.compare(old, new) if t.startswith("+ ") 
                                                               or t.startswith("- ") ]
-        self.old_lines = [ t[2:] for t in d.compare(old, new) if t.startswith("  ") ]
+        self.old_lines = [ t[2:] for t in d.compare(old,new) if t.startswith("  ") ]
 
 
     def get_change_text(self):

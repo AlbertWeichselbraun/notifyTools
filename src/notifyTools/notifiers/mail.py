@@ -22,7 +22,7 @@ from datetime import datetime
 
 from notifyTools.notifiers import Notifier
 
-class Mail(Notifier):
+class MailNotifier(Notifier):
     ''' an RSS output object '''
 
     def __init__(self, sender, recipients, subject, mailhost):
@@ -57,7 +57,7 @@ Link: %(link)s
         message = Message(From=self.sender,
                           To=self.recipients,
                           Subject=self.subject)
-        message.Body = '\n\n'.join( map(self._formatNotification, 
+        message.Body = '\n\n'.join( map(self.formatNotification, 
                                         self.notifications) )
         Mailer(self.mailhost).send(message)
         self.notifiers = []
